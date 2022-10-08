@@ -8,11 +8,15 @@ public class Main {
 
 
     public static void main(String[] args) {
+        HypotenuseFinder hypotenuseFinder = new HypotenuseFinder();
+        hypotenuseFinder.finder();
+    }
+
+    private static void salePriceCal() {
         Scanner scn = new Scanner(System.in);
         SalePriceCal salePriceCal = new SalePriceCal();
         salePriceCal.productPriceCal();
         salePriceCal.productPriceCal();
-
     }
 
     public static void generalAverageCal() {
