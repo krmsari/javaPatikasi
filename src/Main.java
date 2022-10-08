@@ -3,6 +3,7 @@ import MidtermAndFinalCalculator.GradeAverageCal;
 import PatikaNotOrtalamasi.GeneralAverageCal;
 import PriceByTheKdv.SalePriceCal;
 import Taximeter.Taximeter;
+import ValuesOfCircle.Circle;
 
 import java.util.Scanner;
 
@@ -10,10 +11,13 @@ public class Main {
 
 
     public static void main(String[] args) {
+        Circle circle = new Circle();
+        circle.allMethod();
+    }
+
+    private static void taximeter() {
         Taximeter taximeter = new Taximeter();
         taximeter.meter();
-        taximeter.meter();
-
     }
 
     private static void hypotenuseFinder() {
