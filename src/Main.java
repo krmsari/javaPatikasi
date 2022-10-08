@@ -5,6 +5,7 @@ import HypotenusAndAreaCal.HypotenuseFinder;
 import MidtermAndFinalCalculator.GradeAverageCal;
 import PatikaNotOrtalamasi.GeneralAverageCal;
 import PriceByTheKdv.SalePriceCal;
+import ScannerStudy.UserManager;
 import Taximeter.Taximeter;
 import ValuesOfCircle.Circle;
 
@@ -14,6 +15,11 @@ public class Main {
 
 
     public static void main(String[] args) {
+        UserManager userManager = new UserManager();
+        userManager.userLogin();
+    }
+
+    private static void calculator() {
         Calculator calculator = new Calculator();
         calculator.calculator();
     }
