@@ -1,4 +1,5 @@
 import BodyMassIndex.BMIndex;
+import Calculator.Calculator;
 import Greengrocery.GreenFruitShopping;
 import HypotenusAndAreaCal.HypotenuseFinder;
 import MidtermAndFinalCalculator.GradeAverageCal;
@@ -13,6 +14,11 @@ public class Main {
 
 
     public static void main(String[] args) {
+        Calculator calculator = new Calculator();
+        calculator.calculator();
+    }
+
+    private static void greenFruitShopping() {
         GreenFruitShopping greenFruitShopping = new GreenFruitShopping();
         greenFruitShopping.shopping();
     }
