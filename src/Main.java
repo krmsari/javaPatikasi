@@ -2,6 +2,7 @@ import HypotenusAndAreaCal.HypotenuseFinder;
 import MidtermAndFinalCalculator.GradeAverageCal;
 import PatikaNotOrtalamasi.GeneralAverageCal;
 import PriceByTheKdv.SalePriceCal;
+import Taximeter.Taximeter;
 
 import java.util.Scanner;
 
@@ -9,6 +10,13 @@ public class Main {
 
 
     public static void main(String[] args) {
+        Taximeter taximeter = new Taximeter();
+        taximeter.meter();
+        taximeter.meter();
+
+    }
+
+    private static void hypotenuseFinder() {
         HypotenuseFinder hypotenuseFinder = new HypotenuseFinder();
         hypotenuseFinder.finder();
     }
