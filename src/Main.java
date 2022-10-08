@@ -1,3 +1,4 @@
+import BodyMassIndex.BMIndex;
 import HypotenusAndAreaCal.HypotenuseFinder;
 import MidtermAndFinalCalculator.GradeAverageCal;
 import PatikaNotOrtalamasi.GeneralAverageCal;
@@ -11,6 +12,11 @@ public class Main {
 
 
     public static void main(String[] args) {
+        BMIndex bmIndex = new BMIndex();
+        bmIndex.bmCal();
+    }
+
+    private static void circle() {
         Circle circle = new Circle();
         circle.allMethod();
     }
