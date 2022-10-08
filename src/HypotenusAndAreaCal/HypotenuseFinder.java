@@ -1,8 +1,7 @@
+package HypotenusAndAreaCal;
 import java.util.Scanner;
-
 public class HypotenuseFinder {
     Scanner scn = new Scanner(System.in);
-
     public void makerTriangle(){
         for (byte i=0;i<5;i++){
             for (byte t=0;t<4-i;t++){
@@ -32,7 +31,6 @@ public class HypotenuseFinder {
             halfOfPerimeter+=edges[n];
         }
         halfOfPerimeter=(halfOfPerimeter+hypotenus)/2;
-
         area = Math.sqrt(halfOfPerimeter*(halfOfPerimeter-edges[0])*(halfOfPerimeter-edges[1])*(halfOfPerimeter-hypotenus));
         System.out.print("Hipotenus= " + hypotenus + "\nUcgen alani= " + area);
 

@@ -1,3 +1,4 @@
+import HypotenusAndAreaCal.HypotenuseFinder;
 import MidtermAndFinalCalculator.GradeAverageCal;
 import PatikaNotOrtalamasi.GeneralAverageCal;
 import PriceByTheKdv.SalePriceCal;
