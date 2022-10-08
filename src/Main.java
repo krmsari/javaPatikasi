@@ -1,19 +1,25 @@
+import KDVCalculator.SalePriceCal;
 import MidtermAndFinalCalculator.GradeAverageCal;
 import PatikaNotOrtalamasi.GeneralAverageCal;
-
 import java.util.Scanner;
 
 public class Main {
-    Scanner scn = new Scanner(System.in);
+
 
     public static void main(String[] args) {
-
-        GeneralAverageCal generalAverageCal = new GeneralAverageCal();
-        var c = generalAverageCal.averageCal();
+        Scanner scn = new Scanner(System.in);
+        SalePriceCal salePriceCal = new SalePriceCal();
+        salePriceCal.productPriceCal();
+        salePriceCal.productPriceCal();
 
     }
 
+    public static void generalAverageCal() {
+        GeneralAverageCal generalAverageCal = new GeneralAverageCal();
+        var c = generalAverageCal.averageCal();
+    }
     public void gradeAverageCal(){
+        Scanner scn = new Scanner(System.in);
         GradeAverageCal gradeAverageCal = new GradeAverageCal();
         System.out.print("Donem boyunca kac sinav olacak: ");
         int howManyExams = scn.nextInt();
