@@ -1,4 +1,5 @@
 import BodyMassIndex.BMIndex;
+import Greengrocery.GreenFruitShopping;
 import HypotenusAndAreaCal.HypotenuseFinder;
 import MidtermAndFinalCalculator.GradeAverageCal;
 import PatikaNotOrtalamasi.GeneralAverageCal;
@@ -12,6 +13,11 @@ public class Main {
 
 
     public static void main(String[] args) {
+        GreenFruitShopping greenFruitShopping = new GreenFruitShopping();
+        greenFruitShopping.shopping();
+    }
+
+    private static void bmIndex() {
         BMIndex bmIndex = new BMIndex();
         bmIndex.bmCal();
     }
