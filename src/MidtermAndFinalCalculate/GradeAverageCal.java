@@ -1,4 +1,4 @@
-package MidtermAndFinalCalculator;
+package MidtermAndFinalCalculate;
 
 import java.util.Scanner;
 

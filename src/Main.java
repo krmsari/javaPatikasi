@@ -1,9 +1,10 @@
 import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
 import Greengrocery.GreenFruitShopping;
-import HypotenusAndAreaCal.HypotenuseFinder;
-import MidtermAndFinalCalculator.GradeAverageCal;
+import HypotenusAndAreaCalculate.HypotenuseFinder;
+import MidtermAndFinalCalculate.GradeAverageCal;
 import PatikaNotOrtalamasi.GeneralAverageCal;
+import PatikaNotOrtalamasiIkı.ProgressStatus;
 import PriceByTheKdv.SalePriceCal;
 import ScannerStudy.UserManager;
 import Taximeter.Taximeter;
@@ -15,6 +16,11 @@ public class Main {
 
 
     public static void main(String[] args) {
+        ProgressStatus progressStatus = new ProgressStatus();
+        progressStatus.averageCal();
+    }
+
+    private static void userManager() {
         UserManager userManager = new UserManager();
         userManager.userLogin();
     }

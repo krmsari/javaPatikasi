@@ -1,4 +1,4 @@
-package HypotenusAndAreaCal;
+package HypotenusAndAreaCalculate;
 import java.util.Scanner;
 public class HypotenuseFinder {
     Scanner scn = new Scanner(System.in);
