@@ -1,6 +1,7 @@
 import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
 import Greengrocery.GreenFruitShopping;
+import Horoscope.HoroscopeFinder;
 import HypotenusAndAreaCalculate.HypotenuseFinder;
 import MidtermAndFinalCalculate.GradeAverageCal;
 import NumberComparison.Comparison;
@@ -14,6 +15,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        HoroscopeFinder horoscope = new HoroscopeFinder();
+        horoscope.finder();
+    }
+
+    private static void comparison() {
         Comparison comparison = new Comparison();
         comparison.numberComparison();
     }
