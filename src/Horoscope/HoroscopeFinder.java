@@ -7,12 +7,23 @@ public class HoroscopeFinder {
     //                                0       1      2     3        4        5        6         7        8       9     10      11
     int day,counter=0;
     String month, result;
+    boolean checkMonth,checker;
     Scanner scn = new Scanner(System.in);
     public void finder(){
         System.out.print("Doğum ayını seç: ");
         month = scn.nextLine().toLowerCase();
+        checker=checkerMonth(months,month);
+        while (!checker){
+            System.out.print("Doğum ayını seçmeyi tekrar dene: ");
+            month = scn.nextLine().toLowerCase();
+            checker=checkerMonth(months,month);
+        }
         System.out.print("Doğum gününü seç: ");
         day = scn.nextInt();
+        while (day<=0 || day>=32){
+            System.out.print("Doğum gününü seçmeyi tekrar dene: ");
+            day = scn.nextInt();
+        }
         for (String item : months) {
             if ((day>=22 && day<32 && month.equals("ocak")) || (day>0 && day<=19 && month.equals("şubat"))) {
                 result = horoscope[0];
@@ -43,6 +54,15 @@ public class HoroscopeFinder {
         System.out.println(result);
     }
 
+    public boolean checkerMonth(String[] array, String value){
+        checkMonth = false;
+        for (String item : array) {
+            if (item.equals(value)){
+                checkMonth = true;
+            }
+        }
+        return checkMonth;
+    }
     public int indexFinder(String[] array, String value){
         for (String item : array) {
             if (item.equals(value)){
