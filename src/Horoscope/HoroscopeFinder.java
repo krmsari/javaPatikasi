@@ -14,29 +14,29 @@ public class HoroscopeFinder {
         System.out.print("Doğum gününü seç: ");
         day = scn.nextInt();
         for (String item : months) {
-            if ((day>=22 && day<=32 && month.equals("ocak")) || (day>0 && day<=19 && month.equals("şubat"))) {
+            if ((day>=22 && day<32 && month.equals("ocak")) || (day>0 && day<=19 && month.equals("şubat"))) {
                 result = horoscope[0];
-            }else if ((day>=20 && day<=32 && month.equals("şubat")) || (day>0 && day<=20 && month.equals("mart"))){
+            }else if ((day>=20 && day<32 && month.equals("şubat")) || (day>0 && day<=20 && month.equals("mart"))){
                 result = horoscope[1];
-            }else if ((day>=21 && day<=32 && month.equals("mart")) || (day>0 && day<=20 && month.equals("nisan"))){
+            }else if ((day>=21 && day<32 && month.equals("mart")) || (day>0 && day<=20 && month.equals("nisan"))){
                 result = horoscope[2];
-            } else if ((day>=21 && day<=32 && month.equals("nisan")) || (day>0 && day<=21 && month.equals("mayıs"))) {
+            } else if ((day>=21 && day<32 && month.equals("nisan")) || (day>0 && day<=21 && month.equals("mayıs"))) {
                 result = horoscope[3];
-            }else if ((day>=22 && day<=32 && month.equals("mayıs")) || (day>0 && day<=22 && month.equals("haziran"))) {
+            }else if ((day>=22 && day<32 && month.equals("mayıs")) || (day>0 && day<=22 && month.equals("haziran"))) {
                 result = horoscope[4];
-            }else if ((day>=23 && day<=32 && month.equals("haziran")) || (day>0 && day<=22 && month.equals("temmuz"))) {
+            }else if ((day>=23 && day<32 && month.equals("haziran")) || (day>0 && day<=22 && month.equals("temmuz"))) {
                 result = horoscope[5];
-            }else if ((day>=23 && day<=32 && month.equals("temmuz")) || (day>0 && day<=22 && month.equals("ağustos"))) {
+            }else if ((day>=23 && day<32 && month.equals("temmuz")) || (day>0 && day<=22 && month.equals("ağustos"))) {
                 result = horoscope[6];
-            }else if ((day>=23 && day<=32 && month.equals("ağustos")) || (day>0 && day<=22 && month.equals("eylül"))) {
+            }else if ((day>=23 && day<32 && month.equals("ağustos")) || (day>0 && day<=22 && month.equals("eylül"))) {
                 result = horoscope[7];
-            }else if ((day>=23 && day<=32 && month.equals("eylül")) || (day>0 && day<=22 && month.equals("ekim"))) {
+            }else if ((day>=23 && day<32 && month.equals("eylül")) || (day>0 && day<=22 && month.equals("ekim"))) {
                 result = horoscope[8];
-            }else if ((day>=23 && day<=32 && month.equals("ekim")) || (day>0 && day<=21 && month.equals("kasım"))) {
+            }else if ((day>=23 && day<32 && month.equals("ekim")) || (day>0 && day<=21 && month.equals("kasım"))) {
                 result = horoscope[9];
-            }else if ((day>=22 && day<=32 && month.equals("kasım")) || (day>0 && day<=21 && month.equals("aralık"))) {
+            }else if ((day>=22 && day<32 && month.equals("kasım")) || (day>0 && day<=21 && month.equals("aralık"))) {
                 result = horoscope[10];
-            }else if ((day>=22 && day<=32 && month.equals("aralık")) || (day>0 && day<=21 && month.equals("ocak"))) {
+            }else if ((day>=22 && day<32 && month.equals("aralık")) || (day>0 && day<=21 && month.equals("ocak"))) {
                 result = horoscope[11];
             }
         }
