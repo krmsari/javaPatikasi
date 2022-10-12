@@ -1,7 +1,5 @@
 package EventCalendar;
-
 import java.util.Scanner;
-
 public class EventProgram {
     Scanner scn = new Scanner(System.in);
     String[] programs = new String[]{"Kayak","Sinema","Piknik","Yüzme"};
