@@ -1,5 +1,6 @@
 import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
+import ChineseZodiacCalculator.Zodiac;
 import FlightTicket.FlightTicketPrice;
 import Greengrocery.GreenFruitShopping;
 import Horoscope.HoroscopeFinder;
@@ -16,6 +17,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Zodiac zodiac = new Zodiac();
+        zodiac.zodiacCal();
+
+
+    }
+
+    private static void flightTicketPrice() {
         FlightTicketPrice flightTicketPrice = new FlightTicketPrice();
         flightTicketPrice.ticketPrice();
     }
@@ -68,8 +76,8 @@ public class Main {
         salePriceCal.productPriceCal();
         salePriceCal.productPriceCal();
     }
-    public static void generalAverageCal() {
+    private static void generalAverageCal() {
         GeneralAverageCal generalAverageCal = new GeneralAverageCal();
-        var c = generalAverageCal.averageCal();
+        generalAverageCal.averageCal();
     }
 }
