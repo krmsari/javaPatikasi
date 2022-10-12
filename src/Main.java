@@ -1,5 +1,6 @@
 import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
+import FlightTicket.FlightTicketPrice;
 import Greengrocery.GreenFruitShopping;
 import Horoscope.HoroscopeFinder;
 import HypotenusAndAreaCalculate.HypotenuseFinder;
@@ -15,7 +16,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        hypotenuseFinder();
+        FlightTicketPrice flightTicketPrice = new FlightTicketPrice();
+        flightTicketPrice.ticketPrice();
     }
 
     private static void horoscope() {
