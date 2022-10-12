@@ -33,6 +33,5 @@ public class HypotenuseFinder {
         halfOfPerimeter=(halfOfPerimeter+hypotenus)/2;
         area = Math.sqrt(halfOfPerimeter*(halfOfPerimeter-edges[0])*(halfOfPerimeter-edges[1])*(halfOfPerimeter-hypotenus));
         System.out.print("Hipotenus= " + hypotenus + "\nUcgen alani= " + area);
-
     }
 }
