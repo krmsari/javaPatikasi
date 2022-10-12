@@ -1,20 +1,10 @@
 package FlightTicket;
-
 import java.util.Scanner;
-
 public class FlightTicketPrice {
     int age;
     double price,distance,discount,ageDiscount=1,typeDiscount,result;
     byte tripType;
     Scanner scn = new Scanner(System.in);
-   /*
-    Kullanıcıdan alınan değerler geçerli (mesafe ve yaş değerleri pozitif sayı, yolculuk tipi ise 1 veya 2) olmalıdır.
-    Aksi takdirde kullanıcıya "Hatalı Veri Girdiniz !" şeklinde bir uyarı verilmelidir.
-    Kişi 12 yaşından küçükse bilet fiyatı üzerinden %50 indirim uygulanır.
-    Kişi 12-24 yaşları arasında ise bilet fiyatı üzerinden %10 indirim uygulanır.
-    Kişi 65 yaşından büyük ise bilet fiyatı üzerinden %30 indirim uygulanır.
-    Kişi "Yolculuk Tipini" gidiş dönüş seçmiş ise bilet fiyatı üzerinden %20 indirim uygulanır.
-    */
     public void ticketPrice(){
         System.out.print("Mesafeyi gir:");
         distance = scn.nextDouble();
