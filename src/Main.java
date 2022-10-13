@@ -1,3 +1,4 @@
+import ArtikYear.ArtikYear;
 import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
 import ChineseZodiacCalculator.Zodiac;
@@ -17,7 +18,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        flightTicketPrice();
+        ArtikYear artikYear = new ArtikYear();
+        artikYear.artik();
 
 
     }
