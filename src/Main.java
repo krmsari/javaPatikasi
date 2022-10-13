@@ -17,10 +17,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        flightTicketPrice();
+
+
+    }
+
+    private static void zodiac() {
         Zodiac zodiac = new Zodiac();
         zodiac.zodiacCal();
-
-
     }
 
     private static void flightTicketPrice() {

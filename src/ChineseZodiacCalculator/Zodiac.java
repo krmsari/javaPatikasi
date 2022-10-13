@@ -1,7 +1,5 @@
 package ChineseZodiacCalculator;
-
 import java.util.Scanner;
-
 public class Zodiac {
     Scanner scn = new Scanner(System.in);
     int year,remainder;

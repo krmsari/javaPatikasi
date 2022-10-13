@@ -2,7 +2,7 @@ package FlightTicket;
 import java.util.Scanner;
 public class FlightTicketPrice {
     int age;
-    double price,distance,discount,ageDiscount=1,typeDiscount,result;
+    double price,distance,ageDiscount=1,typeDiscount,result;
     byte tripType;
     Scanner scn = new Scanner(System.in);
     public void ticketPrice(){
@@ -12,10 +12,10 @@ public class FlightTicketPrice {
         age = scn.nextInt();
         System.out.print("Yolculuk tipini sec\n - 1 => Tek Yön \n - 2 => Gidiş Dönüş :");
         tripType = scn.nextByte();
-        result = priceCalculator(price,distance,age,tripType);
+        result = priceCalculator(distance,age,tripType);
         System.out.println("Tutar: " + result);
     }
-    public double priceCalculator(double p,double d,int a,byte c){
+    public double priceCalculator(double d,int a,byte c){
         price = d*0.1;
         price = ageDiscountCal(price,a);
         typeDiscount = (c==2)?1.6:1;
