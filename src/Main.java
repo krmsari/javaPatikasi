@@ -1,25 +1,37 @@
+import ArtikYear.ArtikYear;
 import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
 import ChineseZodiacCalculator.Zodiac;
 import FlightTicket.FlightTicketPrice;
+import GirilenSayiyaKadarCiftBul.DivisorOdev;
+import GirilenSayiyaKadarCiftBul.EvenNumberFinder;
+import GirilenSayıyaKadarUsluSayi.Power;
+import GirilenSayıyaKadarUsluSayi.PowerOdev;
 import Greengrocery.GreenFruitShopping;
 import Horoscope.HoroscopeFinder;
 import HypotenusAndAreaCalculate.HypotenuseFinder;
-import MidtermAndFinalCalculate.GradeAverageCal;
 import NumberComparison.Comparison;
 import PatikaNotOrtalamasi.GeneralAverageCal;
 import PatikaNotOrtalamasiIkı.ProgressStatus;
 import PriceByTheKdv.SalePriceCal;
 import ScannerStudy.UserManager;
 import Taximeter.Taximeter;
+import TekSayiVeOdev.MultiplesOfFour;
+import TekSayiVeOdev.OddNumbers;
 import ValuesOfCircle.Circle;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        flightTicketPrice();
+        DivisorOdev evenNumberFinder = new DivisorOdev();
+        evenNumberFinder.finder();
 
 
+    }
+
+    private static void artikYear() {
+        ArtikYear artikYear = new ArtikYear();
+        artikYear.artik();
     }
 
     private static void zodiac() {
