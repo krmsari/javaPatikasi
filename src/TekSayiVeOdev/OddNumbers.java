@@ -14,7 +14,7 @@ public class OddNumbers {
             } else if (num<0) {
                 check=false;
             }
-        }
+        } 
         System.out.println(total);
     }
 }
