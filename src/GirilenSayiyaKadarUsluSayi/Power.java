@@ -1,6 +1,6 @@
-package GirilenSayıyaKadarUsluSayi;
+package GirilenSayiyaKadarUsluSayi;
 import java.util.Scanner;
-public class PowerOdev {
+public class Power {
     int maxNum,num=1;
     Scanner scn = new Scanner(System.in);
     public void powerCal(){
@@ -8,13 +8,7 @@ public class PowerOdev {
         maxNum=scn.nextInt();
         while(num<maxNum){
             System.out.print(num + ", ");
-            num*=4;
-        }
-        num=1;
-        System.out.println();
-        while(num<maxNum){
-            System.out.print(num + ", ");
-            num*=5;
+            num*=2;
         }
     }
 }

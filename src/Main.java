@@ -4,9 +4,6 @@ import Calculator.Calculator;
 import ChineseZodiacCalculator.Zodiac;
 import FlightTicket.FlightTicketPrice;
 import GirilenSayiyaKadarCiftBul.DivisorOdev;
-import GirilenSayiyaKadarCiftBul.EvenNumberFinder;
-import GirilenSayıyaKadarUsluSayi.Power;
-import GirilenSayıyaKadarUsluSayi.PowerOdev;
 import Greengrocery.GreenFruitShopping;
 import Horoscope.HoroscopeFinder;
 import HypotenusAndAreaCalculate.HypotenuseFinder;
@@ -16,8 +13,6 @@ import PatikaNotOrtalamasiIkı.ProgressStatus;
 import PriceByTheKdv.SalePriceCal;
 import ScannerStudy.UserManager;
 import Taximeter.Taximeter;
-import TekSayiVeOdev.MultiplesOfFour;
-import TekSayiVeOdev.OddNumbers;
 import ValuesOfCircle.Circle;
 import java.util.Scanner;
 
