@@ -3,25 +3,23 @@ import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
 import ChineseZodiacCalculator.Zodiac;
 import FlightTicket.FlightTicketPrice;
-import GirilenSayiyaKadarCiftBul.DivisorOdev;
-import GirilenSayiyaKadarUsluSayi.PowerOdev;
+import GirilenSayiyaKadarUsluSayi.PowerWork;
 import Greengrocery.GreenFruitShopping;
 import Horoscope.HoroscopeFinder;
 import HypotenusAndAreaCalculate.HypotenuseFinder;
 import NumberComparison.Comparison;
 import PatikaNotOrtalamasi.GeneralAverageCal;
-import PatikaNotOrtalamasiIkı.ProgressStatus;
+import PatikaNotOrtalamasiIki.ProgressStatus;
 import PriceByTheKdv.SalePriceCal;
 import ScannerStudy.UserManager;
 import Taximeter.Taximeter;
-import TekSayiVeOdev.MultiplesOfFour;
 import ValuesOfCircle.Circle;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        MultiplesOfFour evenNumberFinder = new MultiplesOfFour();
-        evenNumberFinder.calculator();
+        PowerWork evenNumberFinder = new PowerWork();
+        evenNumberFinder.powerCal();
 
 
     }

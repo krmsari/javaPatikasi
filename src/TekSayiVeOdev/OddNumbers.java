@@ -11,10 +11,10 @@ public class OddNumbers {
             if (num%2==1){
                 total+=num;
 
-            } else if (num<0) {
+            } else if (num<0) { 
                 check=false;
             }
-        }
+        } 
         System.out.println(total);
     }
 }
