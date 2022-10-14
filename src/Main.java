@@ -4,6 +4,7 @@ import Calculator.Calculator;
 import ChineseZodiacCalculator.Zodiac;
 import FlightTicket.FlightTicketPrice;
 import GirilenSayiyaKadarCiftBul.DivisorOdev;
+import GirilenSayiyaKadarUsluSayi.PowerOdev;
 import Greengrocery.GreenFruitShopping;
 import Horoscope.HoroscopeFinder;
 import HypotenusAndAreaCalculate.HypotenuseFinder;
@@ -13,13 +14,14 @@ import PatikaNotOrtalamasiIkı.ProgressStatus;
 import PriceByTheKdv.SalePriceCal;
 import ScannerStudy.UserManager;
 import Taximeter.Taximeter;
+import TekSayiVeOdev.MultiplesOfFour;
 import ValuesOfCircle.Circle;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        DivisorOdev evenNumberFinder = new DivisorOdev();
-        evenNumberFinder.finder();
+        MultiplesOfFour evenNumberFinder = new MultiplesOfFour();
+        evenNumberFinder.calculator();
 
 
     }

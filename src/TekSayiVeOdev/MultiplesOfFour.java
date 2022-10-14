@@ -1,7 +1,5 @@
 package TekSayiVeOdev;
-
 import java.util.Scanner;
-
 public class MultiplesOfFour {
     Scanner scn = new Scanner(System.in);
     int num,total;
@@ -12,7 +10,7 @@ public class MultiplesOfFour {
             num = scn.nextInt();
             if (num % 4 == 0){
                 total +=num;
-            } else if (num % 2 == 1) {
+            } else if (num % 2 == 1 || num<0) {
                 check=false;
             }
         }
