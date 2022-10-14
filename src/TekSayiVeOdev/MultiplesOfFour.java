@@ -7,7 +7,7 @@ public class MultiplesOfFour {
     public void calculator(){
         while (check){
             System.out.print("Sayi gir: ");
-            num = scn.nextInt();
+            num = scn.nextInt(); 
             if (num % 4 == 0){
                 total +=num;
             } else if (num % 2 == 1 || num<0) {
