@@ -1,10 +1,14 @@
 import ArtikYear.ArtikYear;
+import Armstrong.NumberOfDigits;
 import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
 import ChineseZodiacCalculator.Zodiac;
+import ElmasYapimi.Diamond;
+import Faktoriyel.FactorialCal;
 import FlightTicket.FlightTicketPrice;
 import GirilenSayiyaKadarUsluSayi.PowerWork;
 import Greengrocery.GreenFruitShopping;
+import HarmonikSayilar.Harmonic;
 import Horoscope.HoroscopeFinder;
 import HypotenusAndAreaCalculate.HypotenuseFinder;
 import NumberComparison.Comparison;
@@ -18,10 +22,30 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Diamond d = new Diamond();
+        d.maker();
+
+
+    }
+
+    private static void harmonic() {
+        Harmonic h = new Harmonic();
+        h.cal();
+    }
+
+    private static void numberOfDigits() {
+        NumberOfDigits n = new NumberOfDigits();
+        n.digits();
+    }
+
+    private static void factorialCal() {
+        FactorialCal factorialCal = new FactorialCal();
+        factorialCal.cal();
+    }
+
+    private static void powerWork() {
         PowerWork evenNumberFinder = new PowerWork();
         evenNumberFinder.powerCal();
-
-
     }
 
     private static void artikYear() {

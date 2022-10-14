@@ -2,7 +2,7 @@ package TekSayiVeOdev;
 import java.util.Scanner;
 public class OddNumbers {
     Scanner scn = new Scanner(System.in);
-    int num,total=0;
+    int num,total=0; 
     boolean check =true;
     public void oddNumsFinder() {
         while(check) {

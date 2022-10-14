@@ -1,4 +1,4 @@
-package ArtikYear;
+package ArtikYear; 
 import java.util.Scanner;
 public class ArtikYear {
     Scanner scn = new Scanner(System.in);

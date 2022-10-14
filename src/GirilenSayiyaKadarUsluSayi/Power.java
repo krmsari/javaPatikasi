@@ -8,7 +8,7 @@ public class Power {
         maxNum=scn.nextInt();
         while(num<maxNum){
             System.out.print(num + ", ");
-            num*=2;
+            num*=2; 
         }
     }
 }
