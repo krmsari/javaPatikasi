@@ -9,7 +9,7 @@ public class PowerOdev {
         while(num<maxNum){
             System.out.print(num + ", ");
             num*=4;
-        }
+        } 
         num=1;
         System.out.println();
         while(num<maxNum){
