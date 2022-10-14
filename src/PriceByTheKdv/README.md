@@ -1,4 +1,4 @@
-www.patika.dev
+https://app.patika.dev/krmsari
 
 ![image](https://user-images.githubusercontent.com/77582858/194695499-a07593ed-0da4-4704-96b8-fef84f0cb793.png)
 
