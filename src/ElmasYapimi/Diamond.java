@@ -1,5 +1,4 @@
 package ElmasYapimi;
-
 import java.util.Scanner;
 
 public class Diamond {
@@ -15,7 +14,15 @@ public class Diamond {
             for (j=0;j<=i;j++){
                 System.out.print(" *");
             }
-
+            System.out.println();
+        }
+        for (i=0;i<size;i++){
+            for (k=0;k<=(i+1);k++){
+                System.out.print(" ");
+            }
+            for (j=0;j<(size-i-1);j++){
+                System.out.print(" *");
+            }
             System.out.println();
         }
     }
