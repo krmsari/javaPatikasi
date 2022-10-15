@@ -1,8 +1,11 @@
+import ATM.Teller;
 import ArtikYear.ArtikYear;
 import Armstrong.NumberOfDigits;
+import Asal1_100Arasi.PrimeNumbers;
 import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
 import ChineseZodiacCalculator.Zodiac;
+import EbobEkok.Relation;
 import ElmasYapimi.DesiredDiamond;
 import ElmasYapimi.Diamond;
 import Faktoriyel.FactorialCal;
@@ -12,21 +15,50 @@ import Greengrocery.GreenFruitShopping;
 import HarmonikSayilar.Harmonic;
 import Horoscope.HoroscopeFinder;
 import HypotenusAndAreaCalculate.HypotenuseFinder;
+import MaxMinBulma.NumberOrder;
+import MukemmelSayi.PerfectNum;
 import NumberComparison.Comparison;
 import PatikaNotOrtalamasi.GeneralAverageCal;
 import PatikaNotOrtalamasiIki.ProgressStatus;
 import PriceByTheKdv.SalePriceCal;
 import ScannerStudy.UserManager;
 import Taximeter.Taximeter;
+import TersUcgen.ReverseTriangle;
 import ValuesOfCircle.Circle;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        DesiredDiamond d = new DesiredDiamond();
-        d.maker();
+        PrimeNumbers p = new PrimeNumbers();
+        p.numbers();
 
 
+    }
+
+    private static void reverseTriangle() {
+        ReverseTriangle r = new ReverseTriangle();
+        r.maker();
+    }
+
+    private static void perfectNum() {
+        PerfectNum p = new PerfectNum();
+        p.finder();
+        p.finder();
+    }
+
+    private static void numberOrder() {
+        NumberOrder n = new NumberOrder();
+        n.arrange();
+    }
+
+    private static void relation() {
+        Relation relation = new Relation();
+        relation.cal();
+    }
+
+    private static void teller() {
+        Teller t = new Teller();
+        t.machine();
     }
 
     private static void harmonic() {
