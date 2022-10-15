@@ -3,6 +3,7 @@ import Armstrong.NumberOfDigits;
 import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
 import ChineseZodiacCalculator.Zodiac;
+import ElmasYapimi.DesiredDiamond;
 import ElmasYapimi.Diamond;
 import Faktoriyel.FactorialCal;
 import FlightTicket.FlightTicketPrice;
@@ -22,7 +23,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Diamond d = new Diamond();
+        DesiredDiamond d = new DesiredDiamond();
         d.maker();
 
 
