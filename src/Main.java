@@ -9,6 +9,7 @@ import EbobEkok.Relation;
 import ElmasYapimi.DesiredDiamond;
 import ElmasYapimi.Diamond;
 import Faktoriyel.FactorialCal;
+import Fibonacci.Loop;
 import FlightTicket.FlightTicketPrice;
 import GirilenSayiyaKadarUsluSayi.PowerWork;
 import Greengrocery.GreenFruitShopping;
@@ -29,8 +30,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        PrimeNumbers p = new PrimeNumbers();
-        p.numbers();
+        Loop l = new Loop();
+        l.cal();
 
 
     }
