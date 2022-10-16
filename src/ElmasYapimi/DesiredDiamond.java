@@ -1,9 +1,13 @@
 package ElmasYapimi;
 import java.util.Scanner;
+
 public class DesiredDiamond {
+    
     int size,i,j,k;
     Scanner sc = new Scanner(System.in);
+    
     public void maker(){
+        
         System.out.print("Boyutu belirle:");
         size = sc.nextInt();
 
@@ -16,6 +20,7 @@ public class DesiredDiamond {
             }
             System.out.println();
         }
+        
         for (i = size - 1; i >0; i--) {
             for (k = 1; k <= (size-i)+1 ; k++) {
                 System.out.print(" ");
@@ -23,7 +28,8 @@ public class DesiredDiamond {
             for (j = 1; j <= (2*i)-1; j++) {
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println();
         }
+        
     }
 }
