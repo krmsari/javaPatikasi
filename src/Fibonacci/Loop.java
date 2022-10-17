@@ -8,7 +8,6 @@ public class Loop {
             total = total + variable;
             variable = total - variable;
             result=total;
-
         }
     }
 }

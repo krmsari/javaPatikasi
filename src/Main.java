@@ -1,15 +1,11 @@
 import ATM.Teller;
 import ArtikYear.ArtikYear;
 import Armstrong.NumberOfDigits;
-import Asal1_100Arasi.PrimeNumbers;
 import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
 import ChineseZodiacCalculator.Zodiac;
 import EbobEkok.Relation;
-import ElmasYapimi.DesiredDiamond;
-import ElmasYapimi.Diamond;
 import Faktoriyel.FactorialCal;
-import Fibonacci.Loop;
 import FlightTicket.FlightTicketPrice;
 import GirilenSayiyaKadarUsluSayi.PowerWork;
 import Greengrocery.GreenFruitShopping;
@@ -19,9 +15,12 @@ import HypotenusAndAreaCalculate.HypotenuseFinder;
 import MaxMinBulma.NumberOrder;
 import MukemmelSayi.PerfectNum;
 import NumberComparison.Comparison;
+import PalindromSayi.PalindromicNum;
 import PatikaNotOrtalamasi.GeneralAverageCal;
 import PatikaNotOrtalamasiIki.ProgressStatus;
+import PalindromSayi.Palindrom;
 import PriceByTheKdv.SalePriceCal;
+import RecursiveIleFobinacci.FibonacciByRecursive;
 import ScannerStudy.UserManager;
 import Taximeter.Taximeter;
 import TersUcgen.ReverseTriangle;
@@ -30,8 +29,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Loop l = new Loop();
-        l.cal();
+        FibonacciByRecursive f = new FibonacciByRecursive();
+        f.fibonacci(45);
 
 
     }
