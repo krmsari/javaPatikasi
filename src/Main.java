@@ -1,12 +1,15 @@
 import ATM.Teller;
 import ArtikYear.ArtikYear;
 import Armstrong.NumberOfDigits;
+import AsalSayiBulucu.PrimeNum;
 import BodyMassIndex.BMIndex;
 import Calculator.Calculator;
 import ChineseZodiacCalculator.Zodiac;
 import EbobEkok.Relation;
+import ExponentialCal.Calculate;
 import Faktoriyel.FactorialCal;
 import FlightTicket.FlightTicketPrice;
+import GelismisHesapMakinesi.DevelopedCalculator;
 import GirilenSayiyaKadarUsluSayi.PowerWork;
 import Greengrocery.GreenFruitShopping;
 import HarmonikSayilar.Harmonic;
@@ -18,7 +21,6 @@ import NumberComparison.Comparison;
 import PalindromSayi.PalindromicNum;
 import PatikaNotOrtalamasi.GeneralAverageCal;
 import PatikaNotOrtalamasiIki.ProgressStatus;
-import PalindromSayi.Palindrom;
 import PriceByTheKdv.SalePriceCal;
 import RecursiveIleFobinacci.FibonacciByRecursive;
 import ScannerStudy.UserManager;
@@ -29,10 +31,33 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        primeNumber(225,2);
+    }
+
+    private static void primeNumber(int num,int i) {
+        PrimeNum p = new PrimeNum();
+        p.finder(num,i);
+    }
+
+    private static int calculateExp(int t, int e) {
+        Calculate c = new Calculate();
+        return c.cal(t,e);
+    }
+
+    private static void developedCalculator() {
+        DevelopedCalculator d = new DevelopedCalculator();
+        d.calculator();
+        //System.out.print(d.fac(5));
+    }
+
+    private static void fibonacciByRecursive() {
         FibonacciByRecursive f = new FibonacciByRecursive();
         f.fibonacci(45);
+    }
 
-
+    private static void palindrom() {
+        PalindromicNum f = new PalindromicNum();
+        f.palindromic();
     }
 
     private static void reverseTriangle() {

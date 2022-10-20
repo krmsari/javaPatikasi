@@ -1,14 +1,12 @@
 package PalindromSayi;
-
 import java.util.Scanner;
-
 public class PalindromicNum {
     Scanner sc = new Scanner(System.in);
 
-    int num,temp,reverseNum=0,digit;
     String result;
 
     public void palindromic() {
+        int num,temp,reverseNum=0,digit;
         System.out.print("Sayi gir: ");
         num = sc.nextInt();
         temp=num;
@@ -18,6 +16,6 @@ public class PalindromicNum {
             temp/=10;
         }
         result = (reverseNum == num)?"Sayi palindromik.":"Sayi Palindromik değil";
-        System.out.print(result);
+        System.out.println(result);
     }
 }
