@@ -23,6 +23,7 @@ import PatikaNotOrtalamasi.GeneralAverageCal;
 import PatikaNotOrtalamasiIki.ProgressStatus;
 import PriceByTheKdv.SalePriceCal;
 import RecursiveIleFobinacci.FibonacciByRecursive;
+import RecursiveIleSayiEklemeCikarma.NumberThings;
 import ScannerStudy.UserManager;
 import Taximeter.Taximeter;
 import TersUcgen.ReverseTriangle;
@@ -31,17 +32,22 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        primeNumber(225,2);
+        NumberThings n = new NumberThings();
+        //n.practice(13,13);
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        n.pac(num,num);
     }
 
-    private static void primeNumber(int num,int i) {
+    private static void primeNumber(int num) {
         PrimeNum p = new PrimeNum();
-        p.finder(num,i);
+        p.finder(num,2);
     }
 
-    private static int calculateExp(int t, int e) {
+    private static void calculateExp(int t, int e) {
         Calculate c = new Calculate();
-        return c.cal(t,e);
+        System.out.print(t+"^"+e+ "="+c.cal(t,e));
+
     }
 
     private static void developedCalculator() {

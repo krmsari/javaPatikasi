@@ -1,5 +1,4 @@
 package ExponentialCal;
-import java.util.Scanner;
 
 public class Calculate {
     int result=1;

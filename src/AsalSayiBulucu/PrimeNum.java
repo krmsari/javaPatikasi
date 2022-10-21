@@ -8,7 +8,6 @@ public class PrimeNum {
             return;
         } else if (num%i == 0) {
             System.out.print(num + " asal sayi degildir. " );
-
             return;
         }
         finder(num,i+1);
