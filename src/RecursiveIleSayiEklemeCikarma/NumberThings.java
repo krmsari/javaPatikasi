@@ -18,16 +18,4 @@ public class NumberThings {
             return;
         }
     }
-    public int practice(int num,int limit){
-        System.out.println(num);
-        if (num>0 && isLeast){
-            return practice(num-5,limit);
-        } else if (finish) {
-            return 13;
-        } else {
-            finish = num>=limit?true:false;
-            isLeast=false;
-            return practice(num+5,limit);
-        }
-    }
 }

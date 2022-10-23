@@ -33,8 +33,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         NumberThings n = new NumberThings();
-        //n.practice(13,13);
         Scanner sc = new Scanner(System.in);
+        System.out.print("Sayi gir: ");
         int num = sc.nextInt();
         n.pac(num,num);
     }
