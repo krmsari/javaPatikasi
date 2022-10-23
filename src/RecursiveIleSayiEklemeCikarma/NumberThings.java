@@ -1,7 +1,5 @@
 package RecursiveIleSayiEklemeCikarma;
-
 import java.util.Scanner;
-
 public class NumberThings {
     boolean isLeast=true;
     public void practice(){
