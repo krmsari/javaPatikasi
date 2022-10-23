@@ -33,10 +33,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         NumberThings n = new NumberThings();
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Sayi gir: ");
-        int num = sc.nextInt();
-        n.pac(num,num);
+        n.practice();
     }
 
     private static void primeNumber(int num) {
