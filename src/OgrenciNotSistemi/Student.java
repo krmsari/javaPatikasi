@@ -1,5 +1,7 @@
 package OgrenciNotSistemi;
 
+import java.nio.charset.CoderResult;
+
 public class Student {
     String name,stuNo;
     int classes;
@@ -29,6 +31,17 @@ public class Student {
             kimya.note = _kimya;
         }
     }
+    public void addBulkPerformanceNote(int _mat, int _fizik,int _kimya){
+        if (_mat>=0 && _mat<=100){
+            mat.performance = _mat;
+        }
+        if (_fizik>=0 && _fizik<=100){
+            fizik.performance = _fizik;
+        }
+        if (_kimya>=0 && _kimya<=100){
+            kimya.performance = _kimya;
+        }
+    }
     public void isPass() {
         if (mat.note == 0 || fizik.note == 0 || kimya.note == 0) {
             System.out.println("Notlar tam olarak girilmemis");
@@ -43,8 +56,14 @@ public class Student {
             }
         }
     }
-    public void calcAvarage() {
-        avarage = (fizik.note + kimya.note + mat.note) / 3;
+    public void calcAvarage()
+    {
+        double performanceImpact = 0.2;
+        double noteImpact = 0.8;
+
+        avarage = (fizik.note*noteImpact + fizik.performance*performanceImpact
+                + kimya.note*noteImpact + kimya.performance*performanceImpact
+                + mat.note*noteImpact + mat.performance*performanceImpact) / 3;
     }
 
     public boolean isCheckPass() {
@@ -55,9 +74,12 @@ public class Student {
     public void printNote(){
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println("Ogrenci: " + name);
-        System.out.println("Matematik Notu: " + mat.note);
-        System.out.println("Fizik Notu: " + fizik.note);
-        System.out.println("Kimya Notu: " + kimya.note);
+        System.out.println("Matematik notu: " + mat.note);
+        System.out.println("Matematik sozlu: " + mat.performance);
+        System.out.println("Fizik notu: " + fizik.note);
+        System.out.println("Fizik sozlu: " + fizik.performance);
+        System.out.println("Kimya notu: " + kimya.note);
+        System.out.println("Kimya sozlu: " + kimya.performance);
     }
 
 }
