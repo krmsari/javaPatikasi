@@ -12,16 +12,18 @@ public class Fighter {
         this.dodge=dodge;
     }
     public int hit(Fighter fighter){
-        System.out.println(this.name + "==>" + " " + fighter.damage + " hasar verdi.");
-
         if (fighter.dodge()){
             System.out.println(fighter.name + "gelen saldiriyi savurdu.");
             return fighter.health;
         }
-        if (fighter.health - this.health < 0){
+        if (fighter.health - this.damage < 0){
+            System.out.println(fighter.name + " bayildi, rakibini durumu ise " + this.health );
+
             return 0;
         }
-        return fighter.health - this.health;
+        System.out.println(this.name + " hit " + fighter.name + " with " + fighter.damage + " his power." );
+        return fighter.health - this.damage;
+
     }
 
     public boolean dodge(){
