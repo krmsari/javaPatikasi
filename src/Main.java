@@ -29,6 +29,7 @@ import PatikaNotOrtalamasiIki.ProgressStatus;
 import PriceByTheKdv.SalePriceCal;
 import RecursiveIleFobinacci.FibonacciByRecursive;
 import RecursiveIleSayiEklemeCikarma.NumberThings;
+import SalaryCal.Employee;
 import ScannerStudy.UserManager;
 import Taximeter.Taximeter;
 import TersUcgen.ReverseTriangle;
@@ -37,8 +38,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        mma();
-
+        Employee employee = new Employee("Kerem Sari",1002,44,2000);
+        System.out.println(employee.toString());
     }
 
     private static void mma() {
@@ -50,7 +51,6 @@ public class Main {
         Ring r = new Ring(marc,alex , 90 , 100);
         r.run();
     }
-
     private static void studentsInformation() {
         Course mat = new Course("Matematik", "MAT101", "MAT");
         Course fizik = new Course("Fizik", "FZK101", "FZK");
@@ -79,7 +79,6 @@ public class Main {
         s3.addBulkPerformanceNote(55,50,50);
         s3.isPass();
     }
-
     private static void primeNumber(int num) {
         PrimeNum p = new PrimeNum();
         p.finder(num,2);
