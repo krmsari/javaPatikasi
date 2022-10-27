@@ -38,17 +38,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         mma();
-        /*Fighter marc = new Fighter("Marc" , 15 , 100, 90, 0);
-        Fighter alex = new Fighter("Alex" , 10 , 95, 100, 0);
-
-        Ring r = new Ring(marc,alex , 90 , 100);
-        System.out.println("son: "+marc.hit(alex) );*/
 
     }
 
     private static void mma() {
-        Fighter marc = new Fighter("Marc" , 15 , 100, 90, 0);
-        Fighter alex = new Fighter("Alex" , 10 , 95, 100, 0);
+        int powerOfMarc = (int) (Math.random() * 15);
+        int powerOfAlex = (int) (Math.random() * 10);
+
+        Fighter marc = new Fighter("Marc" , powerOfMarc , 100, 90, 0);
+        Fighter alex = new Fighter("Alex" , powerOfAlex , 95, 100, 1);
         Ring r = new Ring(marc,alex , 90 , 100);
         r.run();
     }
