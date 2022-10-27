@@ -17,11 +17,11 @@ public class Fighter {
             return fighter.health;
         }
         if (fighter.health - this.damage < 0){
-            System.out.println(fighter.name + " bayildi, rakibi "+ this.name +"'in durumu ise " + this.health );
+            System.out.println(fighter.name + " bayildi, rakibi "+ this.name +"'in cani ise " + this.health );
 
             return 0;
         }
-        System.out.println(fighter.name + " hit " + this.name + " with " + fighter.damage + " his power." );
+        System.out.println(this.name + " hit " + fighter.name + " with " + this.damage + " his power." );
         return fighter.health - this.damage;
 
     }

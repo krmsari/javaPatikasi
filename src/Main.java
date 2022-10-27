@@ -45,8 +45,8 @@ public class Main {
         int powerOfMarc = (int) (Math.random() * 15);
         int powerOfAlex = (int) (Math.random() * 10);
 
-        Fighter marc = new Fighter("Marc" , powerOfMarc , 100, 90, 0);
-        Fighter alex = new Fighter("Alex" , powerOfAlex , 95, 100, 1);
+        Fighter marc = new Fighter("Marc" , powerOfMarc , 100, 100, 0);
+        Fighter alex = new Fighter("Alex" , powerOfAlex , 95, 90, 10);
         Ring r = new Ring(marc,alex , 90 , 100);
         r.run();
     }

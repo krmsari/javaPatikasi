@@ -16,18 +16,19 @@ public class Ring {
         if (rate>=0 && rate<5){
             fFigther=f1;
             sFighter=f2;
+            System.out.println("\nIlk saldiriyi " + fFigther.name + " yapti. \n");
         }
         else {
             fFigther=f2;
             sFighter=f1;
+            System.out.println("\nIlk saldiriyi " + fFigther.name + " yapti. \n");
         }
-        System.out.println("\nIlk saldiriyi " + fFigther.name + " yapti. \n");
     }
     public void run() {
-        whoStarting();
         if (checkWeight()) {
-            while (fFigther.health > 0 && sFighter.health > 0) {
+            while (f1.health > 0 && f2.health > 0) {
                 System.out.println("======== YENI ROUND ===========");
+                whoStarting();
                 sFighter.health = fFigther.hit(sFighter);
                 if (isWin()){
                     break;
@@ -37,15 +38,14 @@ public class Ring {
                     break;
                 }
                 printScore();
-
             }
         } else {
             System.out.println("Sporcularin agirlikli uyusmuyor.");
         }
     }
     public boolean checkWeight(){
-        return (fFigther.weight >= minWeight && fFigther.weight <= maxWeight) &&
-                (sFighter.weight >= minWeight && sFighter.weight <= maxWeight);
+        return (f1.weight >= minWeight && f1.weight <= maxWeight) &&
+                (f2.weight >= minWeight && f2.weight <= maxWeight);
     }
     public boolean isWin() {
         if (fFigther.health == 0) {
