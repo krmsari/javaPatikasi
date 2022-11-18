@@ -1,47 +1,59 @@
-import ATM.Teller;
-import ArtikYear.ArtikYear;
-import Armstrong.NumberOfDigits;
-import AsalSayiBulucu.PrimeNum;
-import BodyMassIndex.BMIndex;
-import Calculator.Calculator;
-import ChineseZodiacCalculator.Zodiac;
-import EbobEkok.Relation;
-import ExponentialCal.Calculate;
-import Faktoriyel.FactorialCal;
-import FlightTicket.FlightTicketPrice;
-import GelismisHesapMakinesi.DevelopedCalculator;
-import GirilenSayiyaKadarUsluSayi.PowerWork;
-import Greengrocery.GreenFruitShopping;
-import HarmonikSayilar.Harmonic;
-import Horoscope.HoroscopeFinder;
-import HypotenusAndAreaCalculate.HypotenuseFinder;
-import MMA.Fighter;
-import MMA.Ring;
-import MaxMinBulma.NumberOrder;
-import MukemmelSayi.PerfectNum;
-import NumberComparison.Comparison;
-import OgrenciNotSistemi.Course;
-import OgrenciNotSistemi.Student;
-import OgrenciNotSistemi.Teacher;
-import PalindromSayi.PalindromicNum;
-import PatikaNotOrtalamasi.GeneralAverageCal;
-import PatikaNotOrtalamasiIki.ProgressStatus;
-import PriceByTheKdv.SalePriceCal;
-import RecursiveIleFobinacci.FibonacciByRecursive;
-import RecursiveIleSayiEklemeCikarma.NumberThings;
-import SalaryCal.Employee;
-import ScannerStudy.UserManager;
-import Taximeter.Taximeter;
-import TersUcgen.ReverseTriangle;
-import ValuesOfCircle.Circle;
+import Java101.ATM.Teller;
+import Java101.ArrMaxMin.MaxMin;
+import Java101.ArtikYear.ArtikYear;
+import Java101.Armstrong.NumberOfDigits;
+import Java101.AsalSayiBulucu.PrimeNum;
+import Java101.BodyMassIndex.BMIndex;
+import Java101.Calculator.Calculator;
+import Java101.ChineseZodiacCalculator.Zodiac;
+import Java101.EbobEkok.Relation;
+import Java101.ExponentialCal.Calculate;
+import Java101.Faktoriyel.FactorialCal;
+import Java101.FlightTicket.FlightTicketPrice;
+import Java101.GelismisHesapMakinesi.DevelopedCalculator;
+import Java101.GirilenSayiyaKadarUsluSayi.PowerWork;
+import Java101.Greengrocery.GreenFruitShopping;
+import Java101.HarmonicAverage.Average;
+import Java101.HarmonikSayilar.Harmonic;
+import Java101.Horoscope.HoroscopeFinder;
+import Java101.HypotenusAndAreaCalculate.HypotenuseFinder;
+import Java101.MMA.Fighter;
+import Java101.MMA.Ring;
+import Java101.MaxMinBulma.NumberOrder;
+import Java101.MukemmelSayi.PerfectNum;
+import Java101.NumberComparison.Comparison;
+import Java101.OgrenciNotSistemi.Course;
+import Java101.OgrenciNotSistemi.Student;
+import Java101.OgrenciNotSistemi.Teacher;
+import Java101.PalindromSayi.PalindromicNum;
+import Java101.PatikaNotOrtalamasi.GeneralAverageCal;
+import Java101.PatikaNotOrtalamasiIki.ProgressStatus;
+import Java101.PriceByTheKdv.SalePriceCal;
+import Java101.RecursiveIleFobinacci.FibonacciByRecursive;
+import Java101.SalaryCal.Employee;
+import Java101.ScannerStudy.UserManager;
+import Java101.Taximeter.Taximeter;
+import Java101.TersUcgen.ReverseTriangle;
+import Java101.ValuesOfCircle.Circle;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        MaxMin m = new MaxMin();
+        m.cal();
+
+    }
+
+    private static void harmonicAverage() {
+        Average a = new Average();
+        var s=a.cal();
+        System.out.println(s);
+    }
+    private static void employeeCal() {
         Employee employee = new Employee("Kerem Sari",1002,44,2000);
         System.out.println(employee.toString());
     }
-
     private static void mma() {
         int powerOfMarc = (int) (Math.random() * 15);
         int powerOfAlex = (int) (Math.random() * 10);
