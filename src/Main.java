@@ -6,6 +6,9 @@ import Java101.AsalSayiBulucu.PrimeNum;
 import Java101.BodyMassIndex.BMIndex;
 import Java101.Calculator.Calculator;
 import Java101.ChineseZodiacCalculator.Zodiac;
+import Java101.Desen_Cizimi.DrawingPattern;
+import Java101.DizeyiSiralama.Sorting;
+import Java101.DiziFrekansi.Frequency;
 import Java101.EbobEkok.Relation;
 import Java101.ExponentialCal.Calculate;
 import Java101.Faktoriyel.FactorialCal;
@@ -33,15 +36,43 @@ import Java101.RecursiveIleFobinacci.FibonacciByRecursive;
 import Java101.SalaryCal.Employee;
 import Java101.ScannerStudy.UserManager;
 import Java101.Taximeter.Taximeter;
+import Java101.TekrarEdenCiftSayiBul.FindRepeaters;
 import Java101.TersUcgen.ReverseTriangle;
+import Java101.Transpoz.Transpose;
 import Java101.ValuesOfCircle.Circle;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        frekans();
 
+    }
 
+    private static void transpose() {
+        Transpose mtrs = new Transpose(5,7);
+        int[][] mt=mtrs.createMatrix();
+        mtrs.transpose(mt);
+    }
+
+    private static void frekans() {
+        Frequency fr = new Frequency();
+        fr.finder();
+    }
+
+    private static void arrange() {
+        Sorting sort = new Sorting();
+        sort.arrange();
+    }
+
+    private static void finderRepeaters() {
+        FindRepeaters f = new FindRepeaters();
+        f.finder();
+    }
+
+    private static void drawingPattern() {
+        DrawingPattern dw= new DrawingPattern();
+        dw.drawing();
     }
 
     private static void maxMin() {
@@ -55,7 +86,7 @@ public class Main {
     }
     private static void employeeCal() {
         Employee employee = new Employee("Kerem Sari",1002,44,2000);
-        System.out.println(employee.toString());
+        System.out.println(employee);
     }
     private static void mma() {
         int powerOfMarc = (int) (Math.random() * 15);
