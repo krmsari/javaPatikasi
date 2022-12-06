@@ -1,4 +1,4 @@
-package Java101.PatikaNotOrtalamasiIki;
+package Java101.PatikaNotOrtalamasIlki;
 import java.util.Scanner;
 public class ProgressStatus {
     Scanner scn = new Scanner(System.in);

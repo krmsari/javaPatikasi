@@ -27,7 +27,7 @@ import Java101.OgrenciNotSistemi.Student;
 import Java101.OgrenciNotSistemi.Teacher;
 import Java101.PalindromSayi.PalindromicNum;
 import Java101.PatikaNotOrtalamasi.GeneralAverageCal;
-import Java101.PatikaNotOrtalamasiIki.ProgressStatus;
+import Java101.PatikaNotOrtalamasIlki.ProgressStatus;
 import Java101.PriceByTheKdv.SalePriceCal;
 import Java101.RecursiveIleFobinacci.FibonacciByRecursive;
 import Java101.SalaryCal.Employee;
@@ -40,11 +40,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        MaxMin m = new MaxMin();
-        m.cal();
+
 
     }
 
+    private static void maxMin() {
+        MaxMin m = new MaxMin();
+        m.cal();
+    }
     private static void harmonicAverage() {
         Average a = new Average();
         var s=a.cal();
