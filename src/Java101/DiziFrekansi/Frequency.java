@@ -14,7 +14,6 @@ public class Frequency {
 
                     // Tekrar eden değerleri elemek için
                     frequencies[j] = visited;
-                    System.out.println(i + "--" + j);
                 }
             }
             if (frequencies[i] != visited) {
@@ -24,7 +23,7 @@ public class Frequency {
         // Frekansı göstermek için
         for (int i = 0; i < frequencies.length; i++) {
             if (frequencies[i] != visited) {
-                System.out.println(arr[i] + "-->" + frequencies[i]);
+                System.out.println(arr[i] + " sayisi " + frequencies[i] + " kez tekrar etti. ");
             }
         }
 
