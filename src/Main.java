@@ -34,6 +34,7 @@ import Java101.PatikaNotOrtalamasIlki.ProgressStatus;
 import Java101.PriceByTheKdv.SalePriceCal;
 import Java101.RecursiveIleFobinacci.FibonacciByRecursive;
 import Java101.SalaryCal.Employee;
+import Java101.SayiTahmini.NumberEstimation;
 import Java101.ScannerStudy.UserManager;
 import Java101.Taximeter.Taximeter;
 import Java101.TekrarEdenCiftSayiBul.FindRepeaters;
@@ -45,7 +46,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        frekans();
+        NumberEstimation ne = new NumberEstimation();
+        ne.estimateFac();
 
     }
 
