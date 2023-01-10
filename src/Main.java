@@ -29,6 +29,7 @@ import Java101.OgrenciNotSistemi.Course;
 import Java101.OgrenciNotSistemi.Student;
 import Java101.OgrenciNotSistemi.Teacher;
 import Java101.PalindromSayi.PalindromicNum;
+import Java101.PalindromikKelime.PalindromicWord;
 import Java101.PatikaNotOrtalamasi.GeneralAverageCal;
 import Java101.PatikaNotOrtalamasIlki.ProgressStatus;
 import Java101.PriceByTheKdv.SalePriceCal;
@@ -46,9 +47,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        String str = "abba";
+        PalindromicWord palindromicNum = new PalindromicWord(str);
+        palindromicNum.palindromic();
+
+    }
+
+    private static void estimation() {
         NumberEstimation ne = new NumberEstimation();
         ne.estimateFac();
-
     }
 
     private static void transpose() {
