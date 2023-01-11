@@ -3,6 +3,7 @@ import Java101.ArrMaxMin.MaxMin;
 import Java101.ArtikYear.ArtikYear;
 import Java101.Armstrong.NumberOfDigits;
 import Java101.AsalSayiBulucu.PrimeNum;
+import Java101.BitirmeProjesi.MineSweeper;
 import Java101.BodyMassIndex.BMIndex;
 import Java101.Calculator.Calculator;
 import Java101.ChineseZodiacCalculator.Zodiac;
@@ -47,10 +48,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        MineSweeper mineSweeper = new MineSweeper(3,4);
+        mineSweeper.game();
+
+    }
+
+    private static void palindromicWord() {
         String str = "abba";
         PalindromicWord palindromicNum = new PalindromicWord(str);
         palindromicNum.palindromic();
-
     }
 
     private static void estimation() {
