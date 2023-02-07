@@ -67,21 +67,21 @@ public class ToolStore extends NormalLoc {
                 if (hero.getCoin() >= i.getPrice() && !Objects.equals(i.getName(), hero.getArmor().getName())) {
                     int newDefence = hero.getHealthy() + i.getDefence();
                     hero.setCoin(hero.getCoin() - i.getPrice());
-                    hero.setDamage(newDefence);
+                    hero.setHealthy(newDefence);
                     System.out.println(" - Buyrun zırhınız. \n" + "Eski savunma değerin: " + hero.getHealthy() + "\nYeni savunma değerin: " + newDefence);
                     hero.setArmor(i);
                 } else if (Objects.equals(i.getName(), hero.getArmor().getName())) {
                     System.out.println("Aynı ürünü tekrar alamazsın.");
-                }
-                else {
+                } else {
                     System.out.println(" - Altınınız bu ürün için yeterli değil.");
                 }
             }
         }
     }
+
     private Weapon[] createWeapon() {
         //WEAPONS
-        Weapon gun = new Weapon(1, "Tabanca", 2, 2);
+        Weapon gun = new Weapon(1, "Tabanca", 15, 2);
         Weapon sword = new Weapon(2, "Kılıç", 35, 3);
         Weapon rifle = new Weapon(3, "Tüfek", 45, 7);
         Weapon[] weapons = new Weapon[]{gun, sword, rifle};

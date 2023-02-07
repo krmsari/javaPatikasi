@@ -2,11 +2,13 @@ package Java102.MaceraOyunu.Location.Battlefield;
 
 import Java102.MaceraOyunu.AdventureGame;
 import Java102.MaceraOyunu.Character.Heroes.Hero;
+import Java102.MaceraOyunu.Character.Inventory;
 import Java102.MaceraOyunu.Location.Secure.NormalLoc;
 import Java102.MaceraOyunu.Monster.INPC;
 import Java102.MaceraOyunu.Monster.NPC;
 import Java102.MaceraOyunu.Monster.Zombie;
 
+import java.util.Objects;
 import java.util.Random;
 
 public class BattleLoc extends NormalLoc {
@@ -16,15 +18,18 @@ public class BattleLoc extends NormalLoc {
     protected Hero hero;
 
     private String loot;
+    protected Inventory inventory;
 
     public BattleLoc(int id, Hero hero, String zoneName, String loot) {
         super(id, hero, zoneName);
+        this.hero = hero;
         this.loot = loot;
+        inventory = hero.getInventory();
     }
 
     @Override
     public boolean onLocation() {
-        System.out.println(" !! " + getZoneName() + " bölgesindesin dikkatli ol.");
+
         return super.onLocation();
 
     }
@@ -43,11 +48,12 @@ public class BattleLoc extends NormalLoc {
         for (int i = 0; i < number; i++) {
             beasts[i] = beast;
         }
-        System.out.println(beasts.length + " adet " + beasts[0].getName() + " ile karşılaştın." );
+        System.out.println(beasts.length + " adet " + beasts[0].getName() + " ile karşılaştın.");
         return beasts;
     }
 
-    public void fight(INPC[] beasts, Hero hero) {
+    public void fight(INPC[] beasts, Hero hero, String lootName) {
+        System.out.println(" !! " + getZoneName() + " bölgesindesin dikkatli ol.");
         int pcs = beasts.length;
         INPC beast = beasts[0];
         int beastsHealthy = beast.getHealthy() * pcs;
@@ -55,12 +61,13 @@ public class BattleLoc extends NormalLoc {
         while (((hero.getHealthy() > 0) && (beastsHealthy > 0)) && !exit) {
             System.out.println("  1 - Saldır \n  2 - Kaç ");
             int choose = scanner.nextInt();
+
             switch (choose) {
                 case 1 -> {
                     beastsHealthy = beastsHealthy - hero.getDamage();
-                    System.out.println(" - " + hero.getWeapon().getName() + " ile saldırdın...\n - " + beast.getName() + " canı: " + beastsHealthy );
+                    System.out.println(" - " + hero.getWeapon().getName() + " ile saldırdın...\n - " + beast.getName() + " canı: " + beastsHealthy);
                     hero.setHealthy(hero.getHealthy() - beast.getDamage());
-                    System.out.println(" - " + beast.getName() + " saldırdı... \n - Kalan canın: " +hero.getHealthy());
+                    System.out.println(" - " + beast.getName() + " saldırdı... \n - Kalan canın: " + hero.getHealthy());
 
                 }
                 case 2 -> {
@@ -71,6 +78,30 @@ public class BattleLoc extends NormalLoc {
                     System.out.println("Doğru seçim yaptığından emin ol.");
                 }
             }
+
+        }
+        if (hero.getHealthy() <= 0) {
+            System.out.println("\n ! Ah dostum " + beasts.length + " " + beast.getName() + " seni mağlup etti. ");
+
+        } else if (beastsHealthy <= 0) {
+            System.out.println("\n ! " + beasts.length + " " + beast.getName() + " öldü, ödülünü al: " + getLoot());
+            setTrue(lootName);
+            int earnCoin = beasts.length * beast.getCoin();
+            hero.setCoin(hero.getCoin() + earnCoin);
+            System.out.println(" - Alt edilen " + beasts.length + " " + beast.getName() + " " + earnCoin + " altın düşürdü.\n" +
+                    " Toplam altının: " + hero.getCoin());
         }
     }
+
+
+    private void setTrue(String loot) {
+        if (Objects.equals(loot, "Yemek")) {
+            inventory.setFood(true);
+        } else if (Objects.equals(loot, "Su")) {
+            inventory.setWater(true);
+        } else if (Objects.equals(loot, "Kütük")) {
+            inventory.setWood(true);
+        }
+    }
+
 }

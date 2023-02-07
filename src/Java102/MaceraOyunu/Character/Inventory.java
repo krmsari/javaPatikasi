@@ -21,15 +21,21 @@ public class Inventory {
     public void setFood(boolean food) {
         this.food = food;
     }
-
+    public boolean getFood(){
+        return food;
+    }
     public void setWater(boolean water) {
         this.water = water;
     }
-
+    public boolean getWater(){
+        return water;
+    }
     public void setWood(boolean wood) {
         this.wood = wood;
     }
-
+    public boolean getWood(){
+        return wood;
+    }
     public Armor getArmor() {
         return armor;
     }

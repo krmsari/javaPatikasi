@@ -9,7 +9,9 @@ public class SafeHouse extends NormalLoc{
 
     @Override
     public boolean onLocation() {
-        System.out.println(" - Güvenli ev bölgesine girdiniz.\n - Canınız yenilendi.");
+        int newHealthy = getHero().getHealthy() + 2;
+        System.out.println(" - Güvenli ev bölgesine girdiniz.\n - Canınız yenilendi, yeni can değeriniz: " + newHealthy);
+
         return true;
     }
 }
