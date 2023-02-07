@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class MineSweeper {
     int row, col,mine,i,j,selectedX,selectedY;
-    String[][] area;
-    String[][] display;
+    String[][] area,display;
     int[][] mines;
     Random random = new Random();
     Scanner input = new Scanner(System.in);

@@ -2,21 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="https://app.patika.dev/krmsari">
-      <change afterPath="$PROJECT_DIR$/src/Java102/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/UML Modelleme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Works/UniversityManagementSystem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/AdventureGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/IItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Samurai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/SelectedHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/BattleLoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/Cave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/Forest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/River.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/NormalLoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/SafeHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/ToolStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/INPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/NPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Vampire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Werewolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Zombie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/BitirmeProjesi/MineSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java101/BitirmeProjesi/MineSweeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java101/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java101/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patika/JavaScript/Calculator/css/script.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patika/JavaScript/Calculator/css/script.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patika/JavaScript/Calculator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patika/JavaScript/Calculator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patika/JavaScript/Calculator/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patika/JavaScript/Calculator/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,14 +47,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2KNVNqu2MPKWJf1O5CfShc4JEMe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,9 +73,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/jdk-19/javaPatikasi/src/ObjectOrientedProgramming/Photographs&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/jdk-19/javaPatikasi/src/ObjectOrientedProgramming/Photographs&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -82,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673815341910</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="https://app.patika.dev/krmsari">
+      <created>1674121760877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674121760877</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,5 +141,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="https://app.patika.dev/krmsari" />
     <option name="LAST_COMMIT_MESSAGE" value="https://app.patika.dev/krmsari" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
