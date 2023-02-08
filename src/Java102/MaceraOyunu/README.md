@@ -2,7 +2,7 @@
 <br>
 <div align="center">
   
-<font>  __**Features of the Characters**__ </font>
+<font>  __**The Output of the Adventure Game**__ </font>
   <p> Videoların sadece ikincisine kadar izledim bu yüzden oyuna daha sonra eklenen eşya düşme,
     orana göre random şekilde altın düşme ve canavaların random vuruşundan haberim yoktu onları eklemedim.
     Bunlara videolara devam edip bitirdik sonra geri dönmeyi planlıyorum.   </p>
