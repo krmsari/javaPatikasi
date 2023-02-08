@@ -4,8 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="changes have been made">
+    <list default="true" id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="changed the power of beasts and heroes">
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Prizes/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Prizes/Inheritance/IPrize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Prizes/Inheritance/Prize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Prizes/Water.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Prizes/Wood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/AdventureGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/AdventureGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Armor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/IItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Inheritance/IItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Inheritance/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Inheritance/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Samurai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Samurai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/SelectedHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/SelectedHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/BattleLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/BattleLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/Cave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/Cave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/Forest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/Forest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/River.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Inheritance/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/NormalLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/NormalLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/SafeHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/SafeHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/ToolStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/ToolStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/INPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Inheritance/INPC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/NPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Inheritance/NPC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Vampire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Vampire.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Werewolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Werewolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Zombie.java" afterDir="false" />
@@ -18,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,7 +64,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2KNVNqu2MPKWJf1O5CfShc4JEMe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,6 +82,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Java/jdk-19/javaPatikasi/src/ObjectOrientedProgramming/Photographs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -66,6 +96,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Java102.MaceraOyunu.Prizes" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\jdk-19\javaPatikasi\src" />
     </key>
@@ -76,7 +109,20 @@
       <recent name="D:\Java\jdk-19\javaPatikasi\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Java102.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java102.MaceraOyunu.Main" />
+      <module name="javaPatikasi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java102.MaceraOyunu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java102.MaceraOyunu.Main" />
       <module name="javaPatikasi" />
@@ -92,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Java102.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -105,7 +152,11 @@
       <option name="presentableId" value="Default" />
       <updated>1673814993405</updated>
       <workItem from="1675762406144" duration="15668000" />
-      <workItem from="1675789725122" duration="1020000" />
+      <workItem from="1675789725122" duration="1302000" />
+      <workItem from="1675796429484" duration="3000" />
+      <workItem from="1675802038353" duration="4019000" />
+      <workItem from="1675851027845" duration="2345000" />
+      <workItem from="1675857255251" duration="3521000" />
     </task>
     <task id="LOCAL-00001" summary="https://app.patika.dev/krmsari">
       <created>1673815268079</created>
@@ -135,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675778465856</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed the power of beasts and heroes">
+      <created>1675791194971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675791194971</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="https://app.patika.dev/krmsari" />
     <MESSAGE value="changes have been made" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes have been made" />
+    <MESSAGE value="changed the power of beasts and heroes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the power of beasts and heroes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,21 +1,19 @@
 package Java102.MaceraOyunu.Location.Battlefield;
 
-import Java102.MaceraOyunu.Character.Heroes.Hero;
-import Java102.MaceraOyunu.Character.Inventory;
-import Java102.MaceraOyunu.Monster.INPC;
-import Java102.MaceraOyunu.Monster.Vampire;
+import Java102.MaceraOyunu.Character.Heroes.Inheritance.Hero;
+import Java102.MaceraOyunu.Monster.Inheritance.INPC;
 import Java102.MaceraOyunu.Monster.Werewolf;
 
 public class Forest extends BattleLoc {
     public Forest(Hero hero) {
-        super(5, hero, "ORMAN", "Kütük");
+        super(5, hero, "ORMAN");
         this.hero = hero;
-
+        setLoot(inventory.getWood().getName());
     }
 
     @Override
     public boolean onLocation() {
-        if (!inventory.getWood()){
+        if (!inventory.getWood().getPrize()){
             INPC werewolf = new Werewolf();
             INPC[] beasts = createBeasts(werewolf);
             fight(beasts,hero,getLoot());

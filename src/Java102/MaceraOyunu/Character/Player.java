@@ -1,6 +1,7 @@
 package Java102.MaceraOyunu.Character;
 
 import Java102.MaceraOyunu.Character.Heroes.*;
+import Java102.MaceraOyunu.Character.Heroes.Inheritance.Hero;
 
 import java.util.Scanner;
 

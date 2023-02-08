@@ -1,12 +1,6 @@
-package Java102.MaceraOyunu.Monster;
+package Java102.MaceraOyunu.Monster.Inheritance;
 
 public interface INPC {
-
-    int id = 0;
-    String name = null;
-    int damage = 0;
-    int healthy = 0;
-    int coin = 0;
 
     public int getId();
 

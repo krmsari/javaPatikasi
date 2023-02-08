@@ -1,9 +1,8 @@
 package Java102.MaceraOyunu.Location.Secure;
 
 import Java102.MaceraOyunu.Article.Armor;
-import Java102.MaceraOyunu.Article.IItem;
 import Java102.MaceraOyunu.Article.Weapon;
-import Java102.MaceraOyunu.Character.Heroes.Hero;
+import Java102.MaceraOyunu.Character.Heroes.Inheritance.Hero;
 
 import java.util.Objects;
 
@@ -45,7 +44,7 @@ public class ToolStore extends NormalLoc {
             if (i.getId() == chooseWeapon) {
                 if (hero.getCoin() >= i.getPrice() && !Objects.equals(i.getName(), hero.getWeapon().getName())) {
                     int newDamage = hero.getDamage() + i.getAttack();
-                    System.out.println(" - Buyrun zırhınız.\n" + "Eski saldırı değerin: " + hero.getDamage() + "\nYeni saldırı değerin: " + newDamage);
+                    System.out.println(" - Buyrun zırhınız.\n" + "Eski saldırı değerin: " + hero.getDamage() + "\nYeni saldırı değerin: " + newDamage + "\n Kalan altınınız: " + hero.getCoin());
                     hero.setCoin(hero.getCoin() - i.getPrice());
                     System.out.println("\n - Kalan altınınız: " + hero.getCoin());
                     hero.setWeapon(i);
@@ -68,12 +67,12 @@ public class ToolStore extends NormalLoc {
                     int newDefence = hero.getHealthy() + i.getDefence();
                     hero.setCoin(hero.getCoin() - i.getPrice());
                     hero.setHealthy(newDefence);
-                    System.out.println(" - Buyrun zırhınız. \n" + "Eski savunma değerin: " + hero.getHealthy() + "\nYeni savunma değerin: " + newDefence);
+                    System.out.println(" - Buyrun zırhınız. \n" + "Eski savunma değerin: " + hero.getHealthy() + "\nYeni savunma değerin: " + newDefence + "\n Kalan altınınız: " + hero.getCoin());
                     hero.setArmor(i);
                 } else if (Objects.equals(i.getName(), hero.getArmor().getName())) {
                     System.out.println("Aynı ürünü tekrar alamazsın.");
                 } else {
-                    System.out.println(" - Altınınız bu ürün için yeterli değil.");
+                    System.out.println(" - Altınınız bu ürün için yeterli değil. Altınınız: " + hero.getCoin());
                 }
             }
         }
@@ -82,12 +81,13 @@ public class ToolStore extends NormalLoc {
     private Weapon[] createWeapon() {
         //WEAPONS
         Weapon gun = new Weapon(1, "Tabanca", 15, 2);
-        Weapon sword = new Weapon(2, "Kılıç", 35, 3);
-        Weapon rifle = new Weapon(3, "Tüfek", 45, 7);
+        Weapon sword = new Weapon(2, "Kılıç", 30, 3);
+        Weapon rifle = new Weapon(3, "Tüfek", 40, 7);
         Weapon[] weapons = new Weapon[]{gun, sword, rifle};
-        for (Weapon i : weapons) {
-            System.out.println("\n" + i.getId() + ". Silah: " + i.getName() + "\n Saldırı gücü: " + i.getAttack() + "\n Fiyatı: " + i.getPrice());
+        for (Weapon w : weapons) {
+            System.out.println("\n" + w.getId() + ". Silah: " + w.getName() + "\n Saldırı gücü: " + w.getAttack() + "\n Fiyatı: " + w.getPrice());
         }
+        System.out.println( "\n Altınınız: " + hero.getCoin());
         return weapons;
     }
 
@@ -95,12 +95,13 @@ public class ToolStore extends NormalLoc {
         //ARMORS
 
         Armor light = new Armor(1, "Hafif Zırh", 15, 1);
-        Armor mid = new Armor(2, "Orta Zırh", 25, 3);
-        Armor heavy = new Armor(3, "Ağır Zırh", 40, 5);
+        Armor mid = new Armor(2, "Orta Zırh", 25, 5);
+        Armor heavy = new Armor(3, "Ağır Zırh", 35, 7);
         Armor[] armors = new Armor[]{light, mid, heavy};
-        for (Armor i : armors) {
-            System.out.println("\n" + i.getId() + ". Zırh: " + i.getName() + "\n Savunma: " + i.getDefence() + "\n Fiyatı: " + i.getPrice());
+        for (Armor a : armors) {
+            System.out.println("\n" + a.getId() + ". Zırh: " + a.getName() + "\n Savunma: " + a.getDefence() + "\n Fiyatı: " + a.getPrice());
         }
+        System.out.println( "\n Altınınız: " + hero.getCoin());
         return armors;
     }
 }

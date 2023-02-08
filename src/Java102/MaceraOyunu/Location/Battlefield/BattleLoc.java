@@ -1,12 +1,9 @@
 package Java102.MaceraOyunu.Location.Battlefield;
 
-import Java102.MaceraOyunu.AdventureGame;
-import Java102.MaceraOyunu.Character.Heroes.Hero;
-import Java102.MaceraOyunu.Character.Inventory;
 import Java102.MaceraOyunu.Location.Secure.NormalLoc;
-import Java102.MaceraOyunu.Monster.INPC;
-import Java102.MaceraOyunu.Monster.NPC;
-import Java102.MaceraOyunu.Monster.Zombie;
+import Java102.MaceraOyunu.Character.Heroes.Inheritance.Hero;
+import Java102.MaceraOyunu.Character.Inventory;
+import Java102.MaceraOyunu.Monster.Inheritance.INPC;
 
 import java.util.Objects;
 import java.util.Random;
@@ -20,10 +17,9 @@ public class BattleLoc extends NormalLoc {
     private String loot;
     protected Inventory inventory;
 
-    public BattleLoc(int id, Hero hero, String zoneName, String loot) {
+    public BattleLoc(int id, Hero hero, String zoneName) {
         super(id, hero, zoneName);
         this.hero = hero;
-        this.loot = loot;
         inventory = hero.getInventory();
     }
 
@@ -84,7 +80,7 @@ public class BattleLoc extends NormalLoc {
             System.out.println("\n ! Ah dostum " + beasts.length + " " + beast.getName() + " seni mağlup etti. ");
 
         } else if (beastsHealthy <= 0) {
-            System.out.println("\n ! " + beasts.length + " " + beast.getName() + " öldü, ödülünü al: " + getLoot());
+            System.out.println("\n ! " + beasts.length + " " + beast.getName() + " öldü, ödülünü al: " + lootName);
             setTrue(lootName);
             int earnCoin = beasts.length * beast.getCoin();
             hero.setCoin(hero.getCoin() + earnCoin);
@@ -96,11 +92,14 @@ public class BattleLoc extends NormalLoc {
 
     private void setTrue(String loot) {
         if (Objects.equals(loot, "Yemek")) {
-            inventory.setFood(true);
+            inventory.getFood().setPrize(true);
         } else if (Objects.equals(loot, "Su")) {
-            inventory.setWater(true);
-        } else if (Objects.equals(loot, "Kütük")) {
-            inventory.setWood(true);
+            inventory.getWater().setPrize(true);
+        } else if (Objects.equals(loot, "Odun")) {
+            inventory.getWood().setPrize(true);
+
+
+
         }
     }
 

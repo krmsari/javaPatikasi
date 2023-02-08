@@ -1,14 +1,14 @@
 package Java102.MaceraOyunu;
 
-import Java102.MaceraOyunu.Character.Heroes.Hero;
+import Java102.MaceraOyunu.Location.Secure.ToolStore;
+import Java102.MaceraOyunu.Character.Heroes.Inheritance.Hero;
 import Java102.MaceraOyunu.Character.Inventory;
 import Java102.MaceraOyunu.Character.Player;
 import Java102.MaceraOyunu.Location.Battlefield.Cave;
 import Java102.MaceraOyunu.Location.Battlefield.Forest;
 import Java102.MaceraOyunu.Location.Battlefield.River;
-import Java102.MaceraOyunu.Location.Location;
+import Java102.MaceraOyunu.Location.Inheritance.Location;
 import Java102.MaceraOyunu.Location.Secure.SafeHouse;
-import Java102.MaceraOyunu.Location.Secure.ToolStore;
 
 import java.util.Scanner;
 
@@ -60,7 +60,7 @@ public class AdventureGame {
 
     }
     private boolean checkWin(Inventory inventory){
-        return inventory.getFood() && inventory.getWater() && inventory.getWood();
+        return inventory.getFood().getPrize() && inventory.getWater().getPrize() && inventory.getWood().getPrize();
     }
     public void showLocations(Location[] locationsArr) {
         for (Location l : locationsArr) {

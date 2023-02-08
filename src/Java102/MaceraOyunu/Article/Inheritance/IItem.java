@@ -1,9 +1,6 @@
-package Java102.MaceraOyunu.Article;
+package Java102.MaceraOyunu.Article.Inheritance;
 
 public interface IItem {
-    int id = 0;
-    String name = null;
-    int price = 0;
     public int getId();
 
     public void setId(int id);

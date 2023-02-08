@@ -1,16 +1,17 @@
 package Java102.MaceraOyunu.Character;
 
-import Java102.MaceraOyunu.Article.Armor;
 import Java102.MaceraOyunu.Article.Weapon;
+import Java102.MaceraOyunu.Article.Armor;
+import Java102.MaceraOyunu.Prizes.Inheritance.Prize;
 
 public class Inventory {
-    private boolean water;
-    private boolean food;
-    private boolean wood;
+    private final Prize water;
+    private final Prize food;
+    private final Prize wood;
     private Weapon weapon;
     private Armor armor;
 
-    public Inventory(boolean water, boolean food, boolean wood, Weapon weapon, Armor armor) {
+    public Inventory(Prize water, Prize food, Prize wood, Weapon weapon, Armor armor) {
         this.water = water;
         this.food = food;
         this.wood = wood;
@@ -19,21 +20,22 @@ public class Inventory {
     }
 
     public void setFood(boolean food) {
-        this.food = food;
+        this.food.setPrize(food);
     }
-    public boolean getFood(){
+    public Prize getFood(){
         return food;
     }
     public void setWater(boolean water) {
-        this.water = water;
+        this.water.setPrize(water);
     }
-    public boolean getWater(){
+
+    public Prize getWater(){
         return water;
     }
     public void setWood(boolean wood) {
-        this.wood = wood;
+        this.wood.setPrize(wood);
     }
-    public boolean getWood(){
+    public Prize getWood(){
         return wood;
     }
     public Armor getArmor() {

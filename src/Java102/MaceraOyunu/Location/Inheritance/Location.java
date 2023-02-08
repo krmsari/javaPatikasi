@@ -1,6 +1,6 @@
-package Java102.MaceraOyunu.Location;
+package Java102.MaceraOyunu.Location.Inheritance;
 
-import Java102.MaceraOyunu.Character.Heroes.Hero;
+import Java102.MaceraOyunu.Character.Heroes.Inheritance.Hero;
 
 import java.util.Scanner;
 

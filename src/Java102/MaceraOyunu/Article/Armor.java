@@ -1,6 +1,8 @@
 package Java102.MaceraOyunu.Article;
 
-public class Armor extends Item{
+import Java102.MaceraOyunu.Article.Inheritance.Item;
+
+public class Armor extends Item {
     private int defence;
 
     public Armor(int id, String name, int price, int defence) {

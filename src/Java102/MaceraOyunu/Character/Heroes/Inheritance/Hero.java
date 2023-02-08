@@ -1,8 +1,12 @@
-package Java102.MaceraOyunu.Character.Heroes;
+package Java102.MaceraOyunu.Character.Heroes.Inheritance;
 
 import Java102.MaceraOyunu.Article.Armor;
 import Java102.MaceraOyunu.Article.Weapon;
 import Java102.MaceraOyunu.Character.Inventory;
+import Java102.MaceraOyunu.Prizes.Food;
+import Java102.MaceraOyunu.Prizes.Inheritance.Prize;
+import Java102.MaceraOyunu.Prizes.Water;
+import Java102.MaceraOyunu.Prizes.Wood;
 
 public abstract class Hero {
     private int id;
@@ -14,6 +18,7 @@ public abstract class Hero {
     private Inventory inventory;
     private Weapon weapon = new Weapon(0,"Yumruk",0,0);
     private Armor armor = new Armor(0,"",0,0);
+    private Prize prize;
 
     public Hero(int id,String heroName, int damage, int healthy, int coin) {
         this.id = id;
@@ -21,7 +26,8 @@ public abstract class Hero {
         this.damage = damage;
         this.healthy = healthy;
         this.coin = coin;
-        this.inventory = new Inventory(false,false,false,weapon,armor);
+
+        this.inventory = new Inventory(new Water(),new Food(),new Wood(),weapon,armor);
     }
 
     public void setId(int id){

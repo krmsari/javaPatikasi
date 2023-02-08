@@ -1,6 +1,6 @@
 package Java102.MaceraOyunu.Location.Secure;
 
-import Java102.MaceraOyunu.Character.Heroes.Hero;
+import Java102.MaceraOyunu.Character.Heroes.Inheritance.Hero;
 
 public class SafeHouse extends NormalLoc{
     public SafeHouse(Hero hero) {

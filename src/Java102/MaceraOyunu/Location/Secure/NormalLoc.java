@@ -1,7 +1,7 @@
 package Java102.MaceraOyunu.Location.Secure;
 
-import Java102.MaceraOyunu.Character.Heroes.Hero;
-import Java102.MaceraOyunu.Location.Location;
+import Java102.MaceraOyunu.Character.Heroes.Inheritance.Hero;
+import Java102.MaceraOyunu.Location.Inheritance.Location;
 
 public class NormalLoc extends Location {
 

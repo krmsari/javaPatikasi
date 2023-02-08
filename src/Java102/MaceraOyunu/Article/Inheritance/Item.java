@@ -1,4 +1,4 @@
-package Java102.MaceraOyunu.Article;
+package Java102.MaceraOyunu.Article.Inheritance;
 
 public abstract class Item implements IItem{
     private int id;

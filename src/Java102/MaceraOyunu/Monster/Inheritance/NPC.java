@@ -1,4 +1,4 @@
-package Java102.MaceraOyunu.Monster;
+package Java102.MaceraOyunu.Monster.Inheritance;
 
 public abstract class NPC implements INPC {
     private int id;
