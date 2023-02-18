@@ -4,40 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="changed the power of beasts and heroes">
-      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Prizes/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Prizes/Inheritance/IPrize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Prizes/Inheritance/Prize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Prizes/Water.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Prizes/Wood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="general change made">
+      <change afterPath="$PROJECT_DIR$/src/Java102/Generic/ListelemeSinifi/IList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/Generic/ListelemeSinifi/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/Generic/Nullable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/NestedveInnerClasses/NestedAndInner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/AdventureGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/AdventureGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Armor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/IItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Inheritance/IItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Inheritance/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Article/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Archer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Inheritance/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Samurai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Samurai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/SelectedHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/SelectedHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Heroes/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Character/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/BattleLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/BattleLoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/Cave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/Cave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/Forest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/Forest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Battlefield/River.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Inheritance/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/NormalLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/NormalLoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/SafeHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/SafeHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/ToolStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Location/Secure/ToolStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/INPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Inheritance/INPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/NPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Inheritance/NPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Vampire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Vampire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Werewolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Werewolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/MaceraOyunu/Monster/Zombie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +33,19 @@
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5e3a98a4-4866-45c7-84eb-20b02f845659" />
+        <option name="url" value="https://github.com/krmsari/javaPatikasi.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -67,7 +53,9 @@
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2KNVNqu2MPKWJf1O5CfShc4JEMe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,7 +71,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/jdk-19/javaPatikasi/src/ObjectOrientedProgramming/Photographs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OneDrive/Kerem/Repository/Java&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -91,6 +79,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -110,6 +99,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Java102.Main">
+    <configuration name="Java102.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java102.Main" />
+      <module name="javaPatikasi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java102.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java102.MaceraOyunu.Main" />
       <module name="javaPatikasi" />
@@ -144,6 +146,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\kmsri\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="" />
@@ -156,7 +161,7 @@
       <workItem from="1675796429484" duration="3000" />
       <workItem from="1675802038353" duration="4019000" />
       <workItem from="1675851027845" duration="2345000" />
-      <workItem from="1675857255251" duration="3521000" />
+      <workItem from="1675857255251" duration="4231000" />
     </task>
     <task id="LOCAL-00001" summary="https://app.patika.dev/krmsari">
       <created>1673815268079</created>
@@ -193,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675791194971</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="general change made">
+      <created>1675866283421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675866283422</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +216,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -214,7 +238,8 @@
     <MESSAGE value="https://app.patika.dev/krmsari" />
     <MESSAGE value="changes have been made" />
     <MESSAGE value="changed the power of beasts and heroes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the power of beasts and heroes" />
+    <MESSAGE value="general change made" />
+    <option name="LAST_COMMIT_MESSAGE" value="general change made" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
