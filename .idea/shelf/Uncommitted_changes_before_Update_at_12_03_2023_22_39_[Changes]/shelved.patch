@@ -1,0 +1,199 @@
+Index: src/Java102/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Java102;\r\n\r\nimport Java102.Generic.ListelemeSinifi.MyList;\r\nimport Java102.Generic.Nullable;\r\nimport Java102.NestedveInnerClasses.NestedAndInner;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        MyList<Integer> list = new MyList<>();\r\n        list.add(12);\r\n        list.add(178);\r\n        list.add(1);\r\n        list.add(15);\r\n        list.add(13);\r\n        list.listed();\r\n        list.isEmpty();\r\n        list.indexOf(13);\r\n        list.lastIndexOf(12);\r\n        list.listed();\r\n        list.size();\r\n        list.getCapacity();\r\n        list.sublist(0,3).listed();\r\n\r\n\r\n    }\r\n\r\n    private static void genericNullable() {\r\n        Integer i = 1;\r\n        String s = \"abc\";\r\n        Nullable<Integer> integerNullable = new Nullable<>(i);\r\n        Nullable<String> stringNullable = new Nullable<>(s);\r\n        integerNullable.run();\r\n        stringNullable.run();\r\n    }\r\n\r\n    private static void nestedInner() {\r\n        NestedAndInner nestedAndInner = new NestedAndInner();\r\n        nestedAndInner.run();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Java102/Main.java b/src/Java102/Main.java
+--- a/src/Java102/Main.java	(revision 1f12dfd8bde2af9a4b2073797bad79f3983771e7)
++++ b/src/Java102/Main.java	(date 1676837424801)
+@@ -6,6 +6,12 @@
+ 
+ public class Main {
+     public static void main(String[] args) {
++
++
++
++    }
++
++    private static void genericList() {
+         MyList<Integer> list = new MyList<>();
+         list.add(12);
+         list.add(178);
+@@ -20,8 +26,6 @@
+         list.size();
+         list.getCapacity();
+         list.sublist(0,3).listed();
+-
+-
+     }
+ 
+     private static void genericNullable() {
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a1734989-6a8a-4880-81de-02b53d59ecc8\" name=\"Changes\" comment=\"general change made\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/Java102/Generic/ListelemeSinifi/IList.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Java102/Generic/ListelemeSinifi/MyList.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Java102/Generic/Nullable.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Java102/NestedveInnerClasses/NestedAndInner.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Java102/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Java102/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Merge.Settings\">\r\n    <option name=\"BRANCH\" value=\"origin/master\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"5e3a98a4-4866-45c7-84eb-20b02f845659\" />\r\n        <option name=\"url\" value=\"https://github.com/krmsari/javaPatikasi.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2KNVNqu2MPKWJf1O5CfShc4JEMe\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/OneDrive/Kerem/Repository/Java&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"Java102.MaceraOyunu.Prizes\" />\r\n    </key>\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Java\\jdk-19\\javaPatikasi\\src\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\OneDrive\\Kerem\\Repository\\Java\\src\" />\r\n      <recent name=\"D:\\Java\\jdk-19\\javaPatikasi\\src\\ObjectOrientedProgramming\\Photographs\" />\r\n      <recent name=\"D:\\Java\\jdk-19\\javaPatikasi\" />\r\n      <recent name=\"D:\\Java\\jdk-19\\javaPatikasi\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Java102.Main\">\r\n    <configuration name=\"Java102.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Java102.Main\" />\r\n      <module name=\"javaPatikasi\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Java102.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Java102.MaceraOyunu.Main\" />\r\n      <module name=\"javaPatikasi\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Java102.MaceraOyunu.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Java102.MaceraOyunu.Main\" />\r\n      <module name=\"javaPatikasi\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Java102.MaceraOyunu.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Java102.Main\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration>C:\\Users\\kmsri\\AppData\\Roaming\\Subversion</configuration>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a1734989-6a8a-4880-81de-02b53d59ecc8\" name=\"Changes\" comment=\"\" />\r\n      <created>1673814993405</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1673814993405</updated>\r\n      <workItem from=\"1675762406144\" duration=\"15668000\" />\r\n      <workItem from=\"1675789725122\" duration=\"1302000\" />\r\n      <workItem from=\"1675796429484\" duration=\"3000\" />\r\n      <workItem from=\"1675802038353\" duration=\"4019000\" />\r\n      <workItem from=\"1675851027845\" duration=\"2345000\" />\r\n      <workItem from=\"1675857255251\" duration=\"4231000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"https://app.patika.dev/krmsari\">\r\n      <created>1673815268079</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673815268079</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"https://app.patika.dev/krmsari\">\r\n      <created>1673815341909</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673815341910</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"https://app.patika.dev/krmsari\">\r\n      <created>1674121760877</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1674121760877</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"changes have been made\">\r\n      <created>1675778465856</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675778465856</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"changed the power of beasts and heroes\">\r\n      <created>1675791194971</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675791194971</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"general change made\">\r\n      <created>1675866283421</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675866283422</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"https://app.patika.dev/krmsari\" />\r\n    <MESSAGE value=\"changes have been made\" />\r\n    <MESSAGE value=\"changed the power of beasts and heroes\" />\r\n    <MESSAGE value=\"general change made\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"general change made\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1f12dfd8bde2af9a4b2073797bad79f3983771e7)
++++ b/.idea/workspace.xml	(date 1678649898490)
+@@ -4,11 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="general change made">
+-      <change afterPath="$PROJECT_DIR$/src/Java102/Generic/ListelemeSinifi/IList.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Java102/Generic/ListelemeSinifi/MyList.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Java102/Generic/Nullable.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Java102/NestedveInnerClasses/NestedAndInner.java" afterDir="false" />
++    <list default="true" id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="changed the power of beasts and heroes">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/Java102/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/Main.java" afterDir="false" />
+     </list>
+@@ -31,20 +27,6 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="ROOT_SYNC" value="SYNC" />
+-    <option name="UPDATE_TYPE" value="REBASE" />
+-  </component>
+-  <component name="GitHubPullRequestSearchHistory">{
+-  &quot;lastFilter&quot;: {
+-    &quot;state&quot;: &quot;OPEN&quot;
+-  }
+-}</component>
+-  <component name="GithubPullRequestsUISettings">
+-    <option name="selectedUrlAndAccountId">
+-      <UrlAndAccount>
+-        <option name="accountId" value="5e3a98a4-4866-45c7-84eb-20b02f845659" />
+-        <option name="url" value="https://github.com/krmsari/javaPatikasi.git" />
+-      </UrlAndAccount>
+-    </option>
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -53,9 +35,7 @@
+     <option name="selectedTabId" value="ProjectErrors" />
+   </component>
+   <component name="ProjectId" id="2KNVNqu2MPKWJf1O5CfShc4JEMe" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+-    <ConfirmationsSetting value="2" id="Add" />
+-  </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -71,7 +51,7 @@
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;D:/OneDrive/Kerem/Repository/Java&quot;,
++    &quot;last_opened_file_path&quot;: &quot;D:/Java/jdk-19/javaPatikasi/src/ObjectOrientedProgramming/Photographs&quot;,
+     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+@@ -79,7 +59,6 @@
+     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+@@ -98,20 +77,7 @@
+       <recent name="D:\Java\jdk-19\javaPatikasi\src" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.Java102.Main">
+-    <configuration name="Java102.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Java102.Main" />
+-      <module name="javaPatikasi" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="Java102.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
++  <component name="RunManager">
+     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="Java102.MaceraOyunu.Main" />
+       <module name="javaPatikasi" />
+@@ -140,15 +106,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.Java102.Main" />
+         <item itemvalue="Application.Main" />
+       </list>
+     </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-  <component name="SvnConfiguration">
+-    <configuration>C:\Users\kmsri\AppData\Roaming\Subversion</configuration>
+-  </component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+       <changelist id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="" />
+@@ -161,7 +123,8 @@
+       <workItem from="1675796429484" duration="3000" />
+       <workItem from="1675802038353" duration="4019000" />
+       <workItem from="1675851027845" duration="2345000" />
+-      <workItem from="1675857255251" duration="4231000" />
++      <workItem from="1675857255251" duration="3521000" />
++      <workItem from="1678648628110" duration="1268000" />
+     </task>
+     <task id="LOCAL-00001" summary="https://app.patika.dev/krmsari">
+       <created>1673815268079</created>
+@@ -198,14 +161,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1675791194971</updated>
+     </task>
+-    <task id="LOCAL-00006" summary="general change made">
+-      <created>1675866283421</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1675866283422</updated>
+-    </task>
+-    <option name="localTasksCounter" value="7" />
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -216,19 +172,7 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State>
+-              <option name="FILTERS">
+-                <map>
+-                  <entry key="branch">
+-                    <value>
+-                      <list>
+-                        <option value="origin/master" />
+-                      </list>
+-                    </value>
+-                  </entry>
+-                </map>
+-              </option>
+-            </State>
++            <State />
+           </value>
+         </entry>
+       </map>
+@@ -238,8 +182,7 @@
+     <MESSAGE value="https://app.patika.dev/krmsari" />
+     <MESSAGE value="changes have been made" />
+     <MESSAGE value="changed the power of beasts and heroes" />
+-    <MESSAGE value="general change made" />
+-    <option name="LAST_COMMIT_MESSAGE" value="general change made" />
++    <option name="LAST_COMMIT_MESSAGE" value="changed the power of beasts and heroes" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />

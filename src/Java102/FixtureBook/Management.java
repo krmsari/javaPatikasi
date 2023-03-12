@@ -1,9 +1,6 @@
 package Java102.FixtureBook;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Random;
+import java.util.*;
 
 public class Management {
     private List<String> teams = new ArrayList<>();
@@ -15,24 +12,18 @@ public class Management {
     public void manag() {
         Random random = new Random();
         listed(teams);
-        List<String> winners = new ArrayList<>();
-        int j,series=1;
+        LinkedHashMap<String, String> winners = new LinkedHashMap<>();
+        int j;
         if (teams.size() % 2 != 0) {
             teams.add("BAY");
-            System.out.println("Round: " + series);
 
-            for (int i = 0; i < (teams.size() - 1); i++) {
+            for (int i = 0; i < (teams.size()+25); i++) {
                 j = i + 1;
-                if (!teams.get(i).equalsIgnoreCase("BAY") && !teams.get(j).equalsIgnoreCase("BAY")){
-                    double rate = random.nextDouble(0,1);
-                    System.out.println(teams.get(i) + " - " + teams.get(j));
-                    if (rate<0.5){
-                        winners.add(teams.get(i));
-                        System.out.println("Kazanan: " + teams.get(i));
-                    }else {
-                        winners.add(teams.get(j));
-                        System.out.println("Kazanan: " + teams.get(j));
-                    }
+                int x = random.nextInt(teams.size()-1);
+                int y = random.nextInt(teams.size()-1);
+                if (!teams.get(x).equalsIgnoreCase("BAY") && !teams.get(y).equalsIgnoreCase("BAY")); {
+                    winners.put(teams.get(x), teams.get(y));
+                    System.out.println(x + " - " + y);
                 }
                 i++;
             }
@@ -49,6 +40,18 @@ public class Management {
         }
     }
 
+    public void listed(HashMap<String, String> teams) {
+        System.out.println("\n\nTakım listesi: ");
+        int series = 1;
+
+        for (String key : teams.keySet()) {
+            System.out.println("Round: " + series);
+            for (String value : teams.values()) {
+                System.out.println(key + " - " + value);
+            }
+            series++;
+        }
+    }
     /*for (int i = 0; i < (teams.size() - 1); i++) {
         j = i + 1;
         System.out.println(teams.get(i) + " " + teams.get(j));

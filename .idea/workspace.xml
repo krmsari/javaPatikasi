@@ -4,40 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="MyList">
-      <change afterPath="$PROJECT_DIR$/src/Java102/BookWork/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/BookWork/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/CollectionMap/Collection/ArrayL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/CollectionMap/Collection/HSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/CollectionMap/Map/ValueKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/ExceptionHandling/TryCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/FixtureBook/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/FixtureBook/Management.java" afterDir="false" />
+    <list default="true" id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="general change made">
+      <change afterPath="$PROJECT_DIR$/src/Java102/BookWork/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java101/BitirmeProjesi/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java101/Desen_Cizimi/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java101/Desen_Cizimi/img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java101/DizeyiSiralama/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java101/DizeyiSiralama/img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java101/DiziFrekansi/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java101/MidtermAndFinalCalculate/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java101/PalindromikKelime/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java101/SayiTahmini/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java101/TekrarEdenCiftSayiBul/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java101/Transpoz/Ekran görüntüsü 2023-01-05 220854.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/BookWork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/BookWork/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/FixtureBook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/FixtureBook/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java102/FixtureBook/Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/FixtureBook/Management.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java102/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/universityManagement.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,14 +233,7 @@
       <option name="project" value="LOCAL" />
       <updated>1675866283422</updated>
     </task>
-    <task id="LOCAL-00007" summary="MyList">
-      <created>1676710538298</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1676710538298</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,8 +267,7 @@
     <MESSAGE value="changes have been made" />
     <MESSAGE value="changed the power of beasts and heroes" />
     <MESSAGE value="general change made" />
-    <MESSAGE value="MyList" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyList" />
+    <option name="LAST_COMMIT_MESSAGE" value="general change made" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

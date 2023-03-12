@@ -1,32 +1,11 @@
 package Java102;
 
-import Java102.CollectionMap.Map.ValueKey;
-import Java102.ExceptionHandling.TryCatch;
 import Java102.Generic.ListelemeSinifi.MyList;
 import Java102.Generic.Nullable;
-import Java102.CollectionMap.Collection.HSet;
 import Java102.NestedveInnerClasses.NestedAndInner;
 
 public class Main {
     public static void main(String[] args) {
-
-        ValueKey valueKey = new ValueKey();
-        valueKey.map();
-
-    }
-
-    private static void collections() {
-        HSet hSet = new HSet();
-        hSet.linkedHashSet();
-        hSet.hashSet();
-    }
-
-    private static void tryCatch() {
-        TryCatch tryCatch = new TryCatch();
-        tryCatch.exception();
-    }
-
-    private static void myList() {
         MyList<Integer> list = new MyList<>();
         list.add(12);
         list.add(178);
@@ -41,6 +20,8 @@ public class Main {
         list.size();
         list.getCapacity();
         list.sublist(0,3).listed();
+
+
     }
 
     private static void genericNullable() {
