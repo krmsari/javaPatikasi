@@ -4,13 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="general change made">
-      <change afterPath="$PROJECT_DIR$/src/Java102/Generic/ListelemeSinifi/IList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/Generic/ListelemeSinifi/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/Generic/Nullable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java102/NestedveInnerClasses/NestedAndInner.java" afterDir="false" />
+    <list default="true" id="a1734989-6a8a-4880-81de-02b53d59ecc8" name="Changes" comment="MyList">
+      <change afterPath="$PROJECT_DIR$/src/Java102/BookWork/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/BookWork/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/CollectionMap/Collection/ArrayL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/CollectionMap/Collection/HSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/CollectionMap/Map/ValueKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/ExceptionHandling/TryCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/FixtureBook/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java102/FixtureBook/Management.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/BitirmeProjesi/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/Desen_Cizimi/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/Desen_Cizimi/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/DizeyiSiralama/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/DizeyiSiralama/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/DiziFrekansi/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/MidtermAndFinalCalculate/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/PalindromikKelime/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/SayiTahmini/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/TekrarEdenCiftSayiBul/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java101/Transpoz/Ekran görüntüsü 2023-01-05 220854.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java102/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java102/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/img_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Photographs/universityManagement.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,30 +87,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OneDrive/Kerem/Repository/Java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "D:/OneDrive/Kerem/Repository/Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Java102.MaceraOyunu.Prizes" />
@@ -98,7 +125,33 @@
       <recent name="D:\Java\jdk-19\javaPatikasi\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Java102.Main">
+  <component name="RunManager" selected="Application.Java102.FixtureBook.Main">
+    <configuration name="Java102.BookWork.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java102.BookWork.Main" />
+      <module name="javaPatikasi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java102.BookWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java102.FixtureBook.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java102.FixtureBook.Main" />
+      <module name="javaPatikasi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java102.FixtureBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Java102.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java102.Main" />
       <module name="javaPatikasi" />
@@ -140,6 +193,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Java102.FixtureBook.Main" />
+        <item itemvalue="Application.Java102.BookWork.Main" />
         <item itemvalue="Application.Java102.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -205,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675866283422</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MyList">
+      <created>1676710538298</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676710538298</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +301,8 @@
     <MESSAGE value="changes have been made" />
     <MESSAGE value="changed the power of beasts and heroes" />
     <MESSAGE value="general change made" />
-    <option name="LAST_COMMIT_MESSAGE" value="general change made" />
+    <MESSAGE value="MyList" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyList" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
