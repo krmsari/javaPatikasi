@@ -5,15 +5,14 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> teams = new ArrayList<>();
-        teams.add("Galatasaray");
-        teams.add("Bursaspor");
-        teams.add("Fenerbahçe");
-        teams.add("Beşiktaş");
-        teams.add("Başakşehir");
-        teams.add("Trabzonspor");
-        teams.add("Boluspor ");
-        Management management = new Management(teams);
-        management.manag();
+        List<Team> teams = new ArrayList<>();
+        teams.add(new Team(1,"Fenerbahçe"));
+        teams.add(new Team(2,"Galatasaray"));
+        teams.add(new Team(3,"Başakşehir"));
+        teams.add(new Team(4,"Beşiktaş"));
+        teams.add(new Team(5,"Trabzon"));
+        teams.add(new Team(6,"Bursa"));
+        Fixture again = new Fixture(teams);
+        again.generate();
     }
 }
