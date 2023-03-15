@@ -12,6 +12,7 @@ public class Main {
         teams.add(new Team(4,"Beşiktaş"));
         teams.add(new Team(5,"Trabzon"));
         teams.add(new Team(6,"Bursa"));
+        teams.add(new Team(7,"Bolu"));
         Fixture again = new Fixture(teams);
         again.generate();
     }
